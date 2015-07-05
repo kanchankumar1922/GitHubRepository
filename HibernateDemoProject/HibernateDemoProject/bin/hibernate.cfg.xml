@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!-- <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/springdatabase</property> -->
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/kk</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">admin</property>
+    <property name="show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    <!-- <mapping resource="person.hbm.xml"  />  
+    <mapping resource="DBUser.hbm.xml" /> -->
+    
+    <!-- <mapping package="com.kanchan.topics.savingcollection" /> -->
+    <mapping class="com.kanchan.hibernate.model.DBUser" />
+    
+    <mapping class="com.kanchan.hibernate.topics.savingcollection.PersonCollection" />
+    
+    <mapping class="com.kanchan.hibernate.topics.eagerlazyintialization.PersonEagerLazy"  />   
+     
+   <mapping class="com.kanchan.hibernate.topics.onetoonemapping.PersonOneToOne"  />
+    <mapping class="com.kanchan.hibernate.topics.onetoonemapping.VehicleOneToOne"  />
+    
+     <mapping class="com.kanchan.hibernate.topics.onetomanymapping.PersonOneToMany"  />
+    <mapping class="com.kanchan.hibernate.topics.onetomanymapping.VehicleOneToMany"  /> 
+    
+    <mapping class="com.kanchan.hibernate.topics.manytomanymapping.PersonManyToMany" />
+    <mapping class="com.kanchan.hibernate.topics.manytomanymapping.VehicleManyToMany"  /> 
+    
+    <mapping class="com.kanchan.hibernate.topics.inheritance.VehicleInheritance"  /> 
+    <mapping class="com.kanchan.hibernate.topics.inheritance.VehicleTwoWheeler"  /> 
+    <mapping class="com.kanchan.hibernate.topics.inheritance.VehicleFourWheeler"  /> 
+    
+    <mapping class="com.kanchan.hibernate.topics.hql.PersonHql"  /> 
+    
+    
+  </session-factory>
+</hibernate-configuration>

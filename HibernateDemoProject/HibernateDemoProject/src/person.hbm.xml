@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.kanchan.hibernate.model.Person" table="person">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned"/>
+        </id>
+        <property name="fName">
+            <column name="fName" />
+        </property>
+        <property name="lName">
+            <column name="lName"/>
+        </property>
+        <property name="age">
+            <column name="age"/>
+        </property>
+        <property name="gender">
+            <column name="gender"/>
+        </property>
+    </class>
+</hibernate-mapping>
