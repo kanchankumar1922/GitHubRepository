@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_1JUe8D2-EeOwgrs4vXTpiA" name="Testing_Design_Patterns_factory_Pattern">
+    <eAnnotations xmi:id="_1RpUgD2-EeOwgrs4vXTpiA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_1RpUgT2-EeOwgrs4vXTpiA" source="codegen">
+        <details xmi:id="_1RpUgj2-EeOwgrs4vXTpiA" key="codegenDirectory" value="/Testing-Design-Patterns/src"/>
+        <details xmi:id="_1hBNQD2-EeOwgrs4vXTpiA" key="AssociatedSourceCode" value="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/factorypattern/AnimalCreationException.java;3029842737/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/factorypattern/Cat.java;1328168727/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/factorypattern/Dog.java;2303124681/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/factorypattern/Factory.java;2036546666/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/factorypattern/FactoryTestMain.java;1213142916/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_1df_MD2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_1df_MT2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_1df_Mj2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_1df_Mz2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_1df_ND2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_1df_NT2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_1dgmQD2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_1dgmQT2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_1dibcD2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1dIy0D2-EeOwgrs4vXTpiA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1dIy0T2-EeOwgrs4vXTpiA" name="kanchan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_1dJZ4D2-EeOwgrs4vXTpiA" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1dJZ4T2-EeOwgrs4vXTpiA" name="designpatterns">
+            <packagedElement xmi:type="uml:Package" xmi:id="_1dQHkD2-EeOwgrs4vXTpiA" name="factorypattern">
+              <packagedElement xmi:type="uml:Class" xmi:id="_1ddi8D2-EeOwgrs4vXTpiA" name="AnimalCreationException">
+                <ownedComment xmi:id="_1eqc0D2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_1eePkD2-EeOwgrs4vXTpiA" general="_1eW60T2-EeOwgrs4vXTpiA"/>
+                <ownedAttribute xmi:id="_1ejIED2-EeOwgrs4vXTpiA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_1ejIET2-EeOwgrs4vXTpiA" value="1L"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1emLYD2-EeOwgrs4vXTpiA" name="AnimalCreationException" specification="_1djCgD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1emLYT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1emLYj2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>super(message);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1emycD2-EeOwgrs4vXTpiA" name="AnimalCreationException" specification="_1eZ-IT2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1emycT2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1emycj2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>super(cause);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1enZgD2-EeOwgrs4vXTpiA" name="AnimalCreationException" specification="_1ebzUD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1enZgT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1enZgj2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1enZgz2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>super(message, cause);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1eoAkD2-EeOwgrs4vXTpiA" name="AnimalCreationException" specification="_1edBcD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1eoAkT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1eoAkj2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1eoAkz2-EeOwgrs4vXTpiA" name="enableSuppression">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1eoAlD2-EeOwgrs4vXTpiA" name="writableStackTrace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1eoAlT2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>super(message, cause, enableSuppression, writableStackTrace);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_1dgmQj2-EeOwgrs4vXTpiA" name="AnimalCreationException">
+                  <eAnnotations xmi:id="_1dhNUD2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_1dhNUT2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_1dh0YT2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_1djCgD2-EeOwgrs4vXTpiA" name="AnimalCreationException" method="_1emLYD2-EeOwgrs4vXTpiA">
+                  <eAnnotations xmi:id="_1djCgj2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_1djCgz2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_1djCgT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1djChD2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_1eZ-IT2-EeOwgrs4vXTpiA" name="AnimalCreationException" method="_1emycD2-EeOwgrs4vXTpiA">
+                  <eAnnotations xmi:id="_1ealMD2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_1ealMT2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_1eZ-Ij2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1ealMj2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_1ebzUD2-EeOwgrs4vXTpiA" name="AnimalCreationException" method="_1enZgD2-EeOwgrs4vXTpiA">
+                  <eAnnotations xmi:id="_1ebzUz2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_1ebzVD2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_1ebzUT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1ebzUj2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1ebzVT2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_1edBcD2-EeOwgrs4vXTpiA" name="AnimalCreationException" method="_1eoAkD2-EeOwgrs4vXTpiA">
+                  <eAnnotations xmi:id="_1edogj2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_1edogz2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_1edBcT2-EeOwgrs4vXTpiA" name="message">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1edBcj2-EeOwgrs4vXTpiA" name="cause" type="_1eYwAD2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_1edogD2-EeOwgrs4vXTpiA" name="enableSuppression">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1edogT2-EeOwgrs4vXTpiA" name="writableStackTrace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1edohD2-EeOwgrs4vXTpiA" type="_1ddi8D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1dpwMD2-EeOwgrs4vXTpiA" name="Cat">
+                <ownedComment xmi:id="_1erD4D2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1dqXQD2-EeOwgrs4vXTpiA" name="Dog"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1dq-UD2-EeOwgrs4vXTpiA" name="Factory">
+                <ownedComment xmi:id="_1erD4T2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1eonoD2-EeOwgrs4vXTpiA" name="createInstance" specification="_1dsMcD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1epOsD2-EeOwgrs4vXTpiA" name="animalName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1epOsT2-EeOwgrs4vXTpiA" type="_1egEwD2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>if(animalName.equalsIgnoreCase(&quot;CAT&quot;))return new Cat();&#xD;
+		else if(animalName.equalsIgnoreCase(&quot;DOG&quot;))return new Dog();&#xD;
+		else {&#xD;
+			throw new AnimalCreationException(&quot;Can not create the animail &quot; + animalName);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_1dsMcD2-EeOwgrs4vXTpiA" name="createInstance" isStatic="true" method="_1eonoD2-EeOwgrs4vXTpiA" raisedException="_1ddi8D2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1dsMcT2-EeOwgrs4vXTpiA" name="animalName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_1eh58D2-EeOwgrs4vXTpiA" type="_1egEwD2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_1duosD2-EeOwgrs4vXTpiA" name="FactoryTestMain">
+                <ownedComment xmi:id="_1erD4j2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1ep1wD2-EeOwgrs4vXTpiA" name="main" specification="_1dvPwD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1ep1wT2-EeOwgrs4vXTpiA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1ep1wj2-EeOwgrs4vXTpiA" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Cat cat = null;&#xD;
+		try {&#xD;
+			cat = (Cat) Factory.createInstance(&quot;cat&quot;);&#xD;
+		} catch (AnimalCreationException e) {&#xD;
+			System.out.println(e.getMessage());&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+     if(null != cat)&#xD;
+     	System.out.println(cat);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_1dvPwD2-EeOwgrs4vXTpiA" name="main" isStatic="true" method="_1ep1wD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_1dvPwT2-EeOwgrs4vXTpiA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1dv20D2-EeOwgrs4vXTpiA" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1eWTwD2-EeOwgrs4vXTpiA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1eW60D2-EeOwgrs4vXTpiA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1eW60T2-EeOwgrs4vXTpiA" name="Exception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1eYwAD2-EeOwgrs4vXTpiA" name="Throwable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1egEwD2-EeOwgrs4vXTpiA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_1Rp7kD2-EeOwgrs4vXTpiA">
+      <eAnnotations xmi:id="_1Rp7kT2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_1Rp7kj2-EeOwgrs4vXTpiA" base_Package="_1JUe8D2-EeOwgrs4vXTpiA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1dh0YD2-EeOwgrs4vXTpiA" base_Element="_1dgmQj2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Reference xmi:id="_1eYI8D2-EeOwgrs4vXTpiA" base_Element="_1eW60T2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Reference xmi:id="_1eZ-ID2-EeOwgrs4vXTpiA" base_Element="_1eYwAD2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Reference xmi:id="_1ehS4D2-EeOwgrs4vXTpiA" base_Element="_1egEwD2-EeOwgrs4vXTpiA"/>
+</xmi:XMI>

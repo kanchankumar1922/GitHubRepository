@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_v-NBwD26EeOMtIIG1FphQw">
+  <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wHzpsD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wOHtED26EeOMtIIG1FphQw" targetItem="_wOIUID26EeOMtIIG1FphQw" sourceItem="_wOHGAD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wOKJUT26EeOMtIIG1FphQw" targetItem="_wOL-gD26EeOMtIIG1FphQw" sourceItem="_wOKJUD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wOPo4T26EeOMtIIG1FphQw" targetItem="_wOQ3AD26EeOMtIIG1FphQw" sourceItem="_wOPo4D26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOQP8D26EeOMtIIG1FphQw" sourceAnchor="130.0,0.0" targetAnchor="74.0,54.0" superClass="_wOQ3AD26EeOMtIIG1FphQw" subClass="_wOIUID26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJcocD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wnczED26EeOMtIIG1FphQw" sourceY="-28" targetX="274" targetY="27"/>
+    <bendpoints xmi:id="_wnczET26EeOMtIIG1FphQw" sourceX="-274" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wOSFID26EeOMtIIG1FphQw" sourceAnchor="245.0,36.0" targetAnchor="23.0,80.0" target="_wOIUID26EeOMtIIG1FphQw" source="_wOXkuT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ7woD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wnczEj26EeOMtIIG1FphQw" sourceX="148" targetY="91"/>
+    <stereotypes xmi:id="_wOTTQj26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ8XsD26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wOSsMz26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_wnf2YD26EeOMtIIG1FphQw" position="-189.5,-6.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wOTTQD26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ7woT26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wnfPVD26EeOMtIIG1FphQw" position="-7.5,-14.5"/>
+      <visibility xmi:id="_wOVIcT26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOVIcD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wOTTQT26EeOMtIIG1FphQw" aggregationKind="NONE" name="subSystemUSB" navigable="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJymsT26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wnf2YT26EeOMtIIG1FphQw" position="-190.5,76.5"/>
+      <visibility xmi:id="_wOVIcz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOVIcj26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wOSsMD26EeOMtIIG1FphQw" sourceAnchor="31.0,0.0" targetAnchor="0.0,27.0" target="_wOQ3AD26EeOMtIIG1FphQw" source="_wOXkuT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ-M4T26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wndaID26EeOMtIIG1FphQw" sourceY="-217" targetX="-121"/>
+    <stereotypes xmi:id="_wOT6UD26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ-z8D26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wOTTQz26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_wnhEgD26EeOMtIIG1FphQw" position="-35.010083819666704,176.37401972961533"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wOTTRD26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ-M4j26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wngdcD26EeOMtIIG1FphQw" position="1.6571505139613691,-63.1767354067602"/>
+      <visibility xmi:id="_wOVvgT26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOVvgD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wOTTRT26EeOMtIIG1FphQw" aggregationKind="NONE" name="listSubSystems" navigable="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00j26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wnhEgT26EeOMtIIG1FphQw" position="-155.00221846328446,166.36218805297477"/>
+      <visibility xmi:id="_wOVvgz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOVvgj26EeOMtIIG1FphQw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wOSsMj26EeOMtIIG1FphQw" targetItem="_wOXkuT26EeOMtIIG1FphQw" sourceItem="_wOSsMT26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wOW9oD26EeOMtIIG1FphQw" sourceAnchor="122.0,73.0" targetAnchor="126.0,80.0" target="_wOuKAD26EeOMtIIG1FphQw" source="_wOXkuT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ8XsT26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wndaIT26EeOMtIIG1FphQw" sourceY="23" targetX="-1050" targetY="151"/>
+    <bendpoints xmi:id="_wndaIj26EeOMtIIG1FphQw" sourceX="1050" sourceY="23" targetY="151"/>
+    <stereotypes xmi:id="_wOW9oT26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ8-wD26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wOW9oj26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_wniSoD26EeOMtIIG1FphQw" position="-571.4246212024588,-18.83273811042193"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wOW9oz26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ8Xsj26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wnhrkD26EeOMtIIG1FphQw" position="-17.96015510839149,25.81549416771884"/>
+      <visibility xmi:id="_wOW9pD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOW9pT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wOW9pj26EeOMtIIG1FphQw" aggregationKind="NONE" name="subSystemUI" navigable="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwT26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wniSoT26EeOMtIIG1FphQw" position="-1099.1066017177982,91.94365081389594"/>
+      <visibility xmi:id="_wOW9pz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOW9qD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wOXksD26EeOMtIIG1FphQw" sourceAnchor="245.0,66.0" targetAnchor="128.0,80.0" target="_wOmOMD26EeOMtIIG1FphQw" source="_wOXkuT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ9l0D26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wneBMD26EeOMtIIG1FphQw" sourceX="591" targetY="121"/>
+    <stereotypes xmi:id="_wOXksT26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ-M4D26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wOXksj26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_wni5sT26EeOMtIIG1FphQw" position="-613.8829906421162,-14.424621202458752"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wOXksz26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ9l0T26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wni5sD26EeOMtIIG1FphQw" position="46.59366876077088,-30.96015510839149"/>
+      <visibility xmi:id="_wOXktD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOXktT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wOXktj26EeOMtIIG1FphQw" aggregationKind="NONE" name="subSystemHD" navigable="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00D26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_wnjgwD26EeOMtIIG1FphQw" position="-659.4307178568686,90.03984489160851"/>
+      <visibility xmi:id="_wOXktz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOXkuD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOb2ID26EeOMtIIG1FphQw" sourceAnchor="411.0,0.0" targetAnchor="325.0,137.0" superClass="_wOL-gD26EeOMtIIG1FphQw" subClass="_wOdrUD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJj9MD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wneBMT26EeOMtIIG1FphQw" sourceY="-265" targetX="1236" targetY="25"/>
+    <bendpoints xmi:id="_wneBMj26EeOMtIIG1FphQw" sourceX="-1236" sourceY="-265" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOguoD26EeOMtIIG1FphQw" sourceAnchor="222.0,0.0" targetAnchor="325.0,137.0" superClass="_wOL-gD26EeOMtIIG1FphQw" subClass="_wOh8wD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJivED26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wneoQD26EeOMtIIG1FphQw" sourceY="-25" targetX="635" targetY="25"/>
+    <bendpoints xmi:id="_wneoQT26EeOMtIIG1FphQw" sourceX="-635" sourceY="-25" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOlAED26EeOMtIIG1FphQw" sourceAnchor="128.0,0.0" targetAnchor="74.0,54.0" superClass="_wOQ3AD26EeOMtIIG1FphQw" subClass="_wOmOMD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJfEsD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wneoQj26EeOMtIIG1FphQw" sourceY="-28" targetX="610" targetY="27"/>
+    <bendpoints xmi:id="_wneoQz26EeOMtIIG1FphQw" sourceX="-610" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOoqcD26EeOMtIIG1FphQw" sourceAnchor="108.0,0.0" targetAnchor="325.0,137.0" superClass="_wOL-gD26EeOMtIIG1FphQw" subClass="_wOqfoD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJd2kD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wnfPUD26EeOMtIIG1FphQw" sourceY="-235" targetX="398" targetY="25"/>
+    <bendpoints xmi:id="_wnfPUT26EeOMtIIG1FphQw" sourceX="-398" sourceY="-235" targetY="25"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wOs74D26EeOMtIIG1FphQw" sourceAnchor="126.0,0.0" targetAnchor="74.0,54.0" superClass="_wOQ3AD26EeOMtIIG1FphQw" subClass="_wOuKAD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJfEsT26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_wnfPUj26EeOMtIIG1FphQw" sourceY="-28" targetX="946" targetY="27"/>
+    <bendpoints xmi:id="_wnfPUz26EeOMtIIG1FphQw" sourceX="-946" sourceY="-28" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wOHGAD26EeOMtIIG1FphQw" sourceConnectionVisual="_wOHtED26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_wOIUID26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ57cD26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wOKJUD26EeOMtIIG1FphQw" sourceConnectionVisual="_wOKJUT26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_wOL-gD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ57cT26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wOPo4D26EeOMtIIG1FphQw" sourceConnectionVisual="_wOPo4T26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_wOQ3AD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ57cj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wOSsMT26EeOMtIIG1FphQw" sourceConnectionVisual="_wOSsMj26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_wOXkuT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ57cz26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOIUID26EeOMtIIG1FphQw" comments="_wOHGAD26EeOMtIIG1FphQw" targetConnectionVisual="_wOHtED26EeOMtIIG1FphQw" name="SubSystemUSB" associationsIn="_wOSFID26EeOMtIIG1FphQw" generalizations="_wOQP8D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIOgcD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOIUIT26EeOMtIIG1FphQw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOIUIj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOIUIz26EeOMtIIG1FphQw" defaultValue="false" name="isUSBStartedSuccessfully">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJvjYD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOIUJD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJwKcT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOIUJT26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOIUJj26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOIUJz26EeOMtIIG1FphQw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOIUKD26EeOMtIIG1FphQw" name="startSubSystem">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIPulD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOIUKT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIQVoD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOIUKj26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIQVoj26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOIUKz26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOL-gD26EeOMtIIG1FphQw" comments="_wOKJUD26EeOMtIIG1FphQw" targetConnectionVisual="_wOKJUT26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" subclassedBy="_wOb2ID26EeOMtIIG1FphQw _wOguoD26EeOMtIIG1FphQw _wOoqcD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIRjwD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOL-gT26EeOMtIIG1FphQw" position="-1598.0,-106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOL-gj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOL-gz26EeOMtIIG1FphQw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJwKcj26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOL-hD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOL-hT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOL-hj26EeOMtIIG1FphQw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOL-hz26EeOMtIIG1FphQw" name="errorMessage">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJwxgT26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOL-iD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOL-iT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOL-ij26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOL-iz26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wISx4D26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOL-jD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOL-jT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOL-jj26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wITY8j26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-jz26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIRjwD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOL-kD26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wISx4T26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-kT26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOL-kj26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJoOoT26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOL-kz26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOL-lD26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOL-lT26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJo1sz26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-lj26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIRjwD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOL-lz26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJoOoj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-mD26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wOL-mT26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJo1sD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-mj26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOL-mz26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJo1tD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOL-nD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOL-nT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOL-nj26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJpcwz26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-nz26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIRjwD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOL-oD26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJpcwD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOL-oT26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOOawD26EeOMtIIG1FphQw" name="FacadeTestMain">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIVOID26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOOawT26EeOMtIIG1FphQw" position="-294.0,77.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOOawj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_wOOawz26EeOMtIIG1FphQw" name="main" staticOperation="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIV1MD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOPB0D26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_wOPB0T26EeOMtIIG1FphQw" name="args">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIV1MT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOPB0j26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOQ3AD26EeOMtIIG1FphQw" comments="_wOPo4D26EeOMtIIG1FphQw" targetConnectionVisual="_wOPo4T26EeOMtIIG1FphQw" name="SubSystem" abstractClass="true" associationsIn="_wOSsMD26EeOMtIIG1FphQw" subclassedBy="_wOQP8D26EeOMtIIG1FphQw _wOlAED26EeOMtIIG1FphQw _wOs74D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIaGoD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOQ3AT26EeOMtIIG1FphQw" position="-188.0,-79.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOQ3Aj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_wOQ3Az26EeOMtIIG1FphQw" abstractOperation="true" name="startSubSystem">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIaGoT26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOQ3BD26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOXkuT26EeOMtIIG1FphQw" comments="_wOSsMT26EeOMtIIG1FphQw" targetConnectionVisual="_wOSsMj26EeOMtIIG1FphQw" name="ComputerFacade" associationsOut="_wOSFID26EeOMtIIG1FphQw _wOSsMD26EeOMtIIG1FphQw _wOW9oD26EeOMtIIG1FphQw _wOXksD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIfmMD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOXkuj26EeOMtIIG1FphQw" position="-340.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOXkuz26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOXkvD26EeOMtIIG1FphQw" name="subSystemUSB">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJymsT26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOXkvT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOVIdD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOXkvj26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOXkvz26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOXkwD26EeOMtIIG1FphQw" name="SubSystemUSB">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIOgcD26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOXkwT26EeOMtIIG1FphQw" name="subSystemUI">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwT26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOXkwj26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwj26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOXkwz26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJzNwj26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOXkxD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOXkxT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOXkxj26EeOMtIIG1FphQw" name="SubSystemUI">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIdJ8D26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOXkxz26EeOMtIIG1FphQw" name="subSystemHD">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00D26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOXkyD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00T26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOXkyT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00T26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOXkyj26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOXkyz26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOXkzD26EeOMtIIG1FphQw" name="SubSystemHD">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIatsD26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOXkzT26EeOMtIIG1FphQw" defaultValue="new ArrayList&lt;SubSystem>()" name="listSubSystems">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJz00j26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOXkzj26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ0b4T26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOVvhD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ0b4T26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOXkzz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOXk0D26EeOMtIIG1FphQw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_wOXk0T26EeOMtIIG1FphQw" name="SubSystem">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIaGoD26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOXk0j26EeOMtIIG1FphQw" name="ComputerFacade">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIgNQD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOXk0z26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOXk1D26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOXk1T26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIg0Uj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOXk1j26EeOMtIIG1FphQw" name="ComputerFacade">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIfmMD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wOXk1z26EeOMtIIG1FphQw" name="startComputer">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIg0Uz26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOXk2D26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOdrUD26EeOMtIIG1FphQw" name="USBFailureException" generalizations="_wOb2ID26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIm68D26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOdrUT26EeOMtIIG1FphQw" position="-448.0,321.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOdrUj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOdrUz26EeOMtIIG1FphQw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ1qAD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOdrVD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOdrVT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOdrVj26EeOMtIIG1FphQw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOdrVz26EeOMtIIG1FphQw" name="errorMessage">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ1qAj26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOdrWD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOdrWT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOdrWj26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOdrWz26EeOMtIIG1FphQw" name="USBFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIoJED26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOdrXD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOdrXT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOdrXj26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIowIj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdrXz26EeOMtIIG1FphQw" name="USBFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIm68D26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOdrYD26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIoJET26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdrYT26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOdrYj26EeOMtIIG1FphQw" name="USBFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJtuMD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOdrYz26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOdrZD26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOdrZT26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJtuNT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdrZj26EeOMtIIG1FphQw" name="USBFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIm68D26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOdrZz26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJtuMT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdraD26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wOdraT26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJtuMj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdraj26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOdraz26EeOMtIIG1FphQw" name="USBFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJuVQD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOdrbD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOdrbT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOdrbj26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJuVRD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdrbz26EeOMtIIG1FphQw" name="USBFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIm68D26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOdrcD26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJuVQT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOdrcT26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOh8wD26EeOMtIIG1FphQw" name="UIFailureException" generalizations="_wOguoD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIj3oD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOh8wT26EeOMtIIG1FphQw" position="-860.0,81.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOh8wj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOh8wz26EeOMtIIG1FphQw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ1C8D26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOh8xD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOij0D26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOij0T26EeOMtIIG1FphQw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOij0j26EeOMtIIG1FphQw" name="errorMessage">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJ1C8j26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOij0z26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOij1D26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOij1T26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOij1j26EeOMtIIG1FphQw" name="UIFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIlFwD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOij1z26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOij2D26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOij2T26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIlFxD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij2j26EeOMtIIG1FphQw" name="UIFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIj3oD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOij2z26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIlFwT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij3D26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOij3T26EeOMtIIG1FphQw" name="UIFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJr5AD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOij3j26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOij3z26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOij4D26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJsgEj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij4T26EeOMtIIG1FphQw" name="UIFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIj3oD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOij4j26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJr5AT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij4z26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wOij5D26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJr5Aj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij5T26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOij5j26EeOMtIIG1FphQw" name="UIFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJsgEz26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOij5z26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOij6D26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_wOij6T26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJtHIj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij6j26EeOMtIIG1FphQw" name="UIFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIj3oD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wOij6z26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJsgFD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_wOij7D26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOmOMD26EeOMtIIG1FphQw" name="SubSystemHD" associationsIn="_wOXksD26EeOMtIIG1FphQw" generalizations="_wOlAED26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIatsD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOmOMT26EeOMtIIG1FphQw" position="368.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOmOMj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOmOMz26EeOMtIIG1FphQw" defaultValue="false" name="isHDStartedSuccessfully">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJxYkj26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOmOND26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJx_oT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOmONT26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOmONj26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOmONz26EeOMtIIG1FphQw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOmOOD26EeOMtIIG1FphQw" name="startSubSystem">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIbUwD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOmOOT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIb70D26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOmOOj26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIb70T26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOmOOz26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOuKAD26EeOMtIIG1FphQw" name="SubSystemUI" associationsIn="_wOW9oD26EeOMtIIG1FphQw" generalizations="_wOs74D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIdJ8D26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOuKAT26EeOMtIIG1FphQw" position="706.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOuKAj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOuKAz26EeOMtIIG1FphQw" defaultValue="false" name="isUIStartedSuccessfully">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJx_oj26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOuKBD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJymsD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOuKBT26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOuKBj26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOuKBz26EeOMtIIG1FphQw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOuKCD26EeOMtIIG1FphQw" name="startSubSystem">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIdxAD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_wOuKCT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIdxAT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_wOuKCj26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIeYED26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_wOuKCz26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wOqfoD26EeOMtIIG1FphQw" name="HDFailureException" generalizations="_wOoqcD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIWcQT26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_wOqfoT26EeOMtIIG1FphQw" position="-983.0,291.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wOqfoj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_wOqfoz26EeOMtIIG1FphQw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJwxgj26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOqfpD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_wOqfpT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOqfpj26EeOMtIIG1FphQw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wOqfpz26EeOMtIIG1FphQw" name="errorMessage">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJxYkT26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_wOqfqD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_wOqfqT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_wOqfqj26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wOqfqz26EeOMtIIG1FphQw" name="HDFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIXqYD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOqfrD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOqfrT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_6ac-MD26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_6aNtoD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6ac-MT26EeOMtIIG1FphQw" name="HDFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIWcQT26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6amvMD26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_2sp2wT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6amvMT26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOqfsj26EeOMtIIG1FphQw" name="HDFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJqD0D26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOqfsz26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOqftD26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_6hXegD26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_6aNGkD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6hXegT26EeOMtIIG1FphQw" name="HDFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIWcQT26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6hhPgD26EeOMtIIG1FphQw" name="errorMessage">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_6aWQgD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6hhPgT26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6hrAgD26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_2sqd0D26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6hrAgT26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wOqfuz26EeOMtIIG1FphQw" name="HDFailureException">
+      <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJqq5D26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_wOqfvD26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_wOqfvT26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_6pbOUD26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_6aOUsD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6pbOUT26EeOMtIIG1FphQw" name="HDFailureException">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wIWcQT26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6pk_UD26EeOMtIIG1FphQw" name="tw">
+        <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_6aO7wD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_6pk_UT26EeOMtIIG1FphQw" name="Throwable">
+          <modelElement href="Testing-Design-Patterns-facade-Pattern.uml#_wJnnkT26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_6ZpwID2-EeOwgrs4vXTpiA" name="Testing_Design_Patterns_observer_Pattern">
+    <eAnnotations xmi:id="_6iKL4D2-EeOwgrs4vXTpiA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_6iKL4T2-EeOwgrs4vXTpiA" source="codegen">
+        <details xmi:id="_6iKL4j2-EeOwgrs4vXTpiA" key="codegenDirectory" value="/Testing-Design-Patterns/src"/>
+        <details xmi:id="_6rpfED2-EeOwgrs4vXTpiA" key="AssociatedSourceCode" value="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/observerpattern/BankLoan.java;2839149803/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/observerpattern/CarLoan.java;2509312996/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/observerpattern/Observer.java;553692730/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/observerpattern/ObservertestMain.java;2729076026/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_6obzAD2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_6obzAT2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_6obzAj2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_6obzAz2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_6obzBD2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_6obzBT2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_6ocaED2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_6ocaET2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_6odBID2-EeOwgrs4vXTpiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6nuoYD2-EeOwgrs4vXTpiA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6nuoYT2-EeOwgrs4vXTpiA" name="kanchan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6nvPcD2-EeOwgrs4vXTpiA" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6nvPcT2-EeOwgrs4vXTpiA" name="designpatterns">
+            <packagedElement xmi:type="uml:Package" xmi:id="_6n8q0D2-EeOwgrs4vXTpiA" name="observerpattern">
+              <packagedElement xmi:type="uml:Class" xmi:id="_6oak4D2-EeOwgrs4vXTpiA" name="BankLoan">
+                <ownedComment xmi:id="_6pVK4D2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_6pOdMD2-EeOwgrs4vXTpiA" name="loanInterest" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_6pPEQD2-EeOwgrs4vXTpiA" value="2.5f"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_6pPEQT2-EeOwgrs4vXTpiA" name="listOfObservers" visibility="package" type="_6omLED2-EeOwgrs4vXTpiA" isOrdered="true" association="_6pXAED2-EeOwgrs4vXTpiA">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6pPrUD2-EeOwgrs4vXTpiA" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_6pPrUT2-EeOwgrs4vXTpiA" value="new ArrayList&lt;Observer>()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6pSuoD2-EeOwgrs4vXTpiA" name="BankLoan" specification="_6pI9oD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_6pSuoT2-EeOwgrs4vXTpiA" name="o" type="_6omLED2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_6pSuoj2-EeOwgrs4vXTpiA" type="_6oak4D2-EeOwgrs4vXTpiA" direction="return"/>
+                  <language>java</language>
+                  <body>this.listOfObservers.add(o);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6pSuoz2-EeOwgrs4vXTpiA" name="setLoanInterest" specification="_6oePQD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_6pSupD2-EeOwgrs4vXTpiA" name="loanInterest">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.loanInterest = loanInterest;&#xD;
+		notifyAllObservers();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6pTVsD2-EeOwgrs4vXTpiA" name="notifyAllObservers" specification="_6oe2UD2-EeOwgrs4vXTpiA">
+                  <language>java</language>
+                  <body>for(Observer o : listOfObservers){&#xD;
+			o.update();&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_6oePQD2-EeOwgrs4vXTpiA" name="setLoanInterest" method="_6pSuoz2-EeOwgrs4vXTpiA">
+                  <ownedComment xmi:id="_6pVx8D2-EeOwgrs4vXTpiA">
+                    <body>@param loanInterest the loanInterest to set</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_6oePQT2-EeOwgrs4vXTpiA" name="loanInterest">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_6oe2UD2-EeOwgrs4vXTpiA" name="notifyAllObservers" method="_6pTVsD2-EeOwgrs4vXTpiA"/>
+                <ownedOperation xmi:id="_6pI9oD2-EeOwgrs4vXTpiA" name="BankLoan" method="_6pSuoD2-EeOwgrs4vXTpiA">
+                  <eAnnotations xmi:id="_6pJksT2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_6pJksj2-EeOwgrs4vXTpiA" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_6pJksD2-EeOwgrs4vXTpiA" name="o" type="_6omLED2-EeOwgrs4vXTpiA"/>
+                  <ownedParameter xmi:id="_6pJksz2-EeOwgrs4vXTpiA" type="_6oak4D2-EeOwgrs4vXTpiA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_6ojHwD2-EeOwgrs4vXTpiA" clientDependency="_6pMA8D2-EeOwgrs4vXTpiA" name="CarLoan">
+                <ownedComment xmi:id="_6pVx8T2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <interfaceRealization xmi:id="_6pMA8D2-EeOwgrs4vXTpiA" client="_6ojHwD2-EeOwgrs4vXTpiA" supplier="_6omLED2-EeOwgrs4vXTpiA" contract="_6omLED2-EeOwgrs4vXTpiA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6pT8wD2-EeOwgrs4vXTpiA" name="update" specification="_6oju0D2-EeOwgrs4vXTpiA">
+                  <language>java</language>
+                  <body>System.out.println(&quot;CAR LOAN UPDATED &quot;);&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_6oju0D2-EeOwgrs4vXTpiA" name="update" method="_6pT8wD2-EeOwgrs4vXTpiA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6omLED2-EeOwgrs4vXTpiA" name="Observer">
+                <ownedComment xmi:id="_6pVx8j2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedOperation xmi:id="_6onZMD2-EeOwgrs4vXTpiA" name="update"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_6ooAQD2-EeOwgrs4vXTpiA" name="ObservertestMain">
+                <ownedComment xmi:id="_6pWZAD2-EeOwgrs4vXTpiA">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6pUj0D2-EeOwgrs4vXTpiA" name="main" specification="_6oonUD2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_6pUj0T2-EeOwgrs4vXTpiA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6pUj0j2-EeOwgrs4vXTpiA" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>BankLoan loan = new BankLoan(new CarLoan());&#xD;
+		loan.setLoanInterest(3.0f);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_6oonUD2-EeOwgrs4vXTpiA" name="main" isStatic="true" method="_6pUj0D2-EeOwgrs4vXTpiA">
+                  <ownedParameter xmi:id="_6oonUT2-EeOwgrs4vXTpiA" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6opOYD2-EeOwgrs4vXTpiA" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_6pXAED2-EeOwgrs4vXTpiA" name="" memberEnd="_6pXAET2-EeOwgrs4vXTpiA _6pPEQT2-EeOwgrs4vXTpiA">
+                <ownedEnd xmi:id="_6pXAET2-EeOwgrs4vXTpiA" name="" type="_6oak4D2-EeOwgrs4vXTpiA" association="_6pXAED2-EeOwgrs4vXTpiA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6nxrsD2-EeOwgrs4vXTpiA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6nxrsT2-EeOwgrs4vXTpiA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6pF6UD2-EeOwgrs4vXTpiA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6pHIcD2-EeOwgrs4vXTpiA" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_6iKy8D2-EeOwgrs4vXTpiA">
+      <eAnnotations xmi:id="_6iKy8T2-EeOwgrs4vXTpiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_6iKy8j2-EeOwgrs4vXTpiA" base_Package="_6ZpwID2-EeOwgrs4vXTpiA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6okV4D2-EeOwgrs4vXTpiA" base_Element="_6oju0D2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Annotations xmi:id="_6ok88D2-EeOwgrs4vXTpiA" base_Element="_6oju0D2-EeOwgrs4vXTpiA">
+    <annotations xmi:id="_6ok88T2-EeOwgrs4vXTpiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_6pGhYD2-EeOwgrs4vXTpiA" base_Element="_6pF6UD2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Reference xmi:id="_6pIWkD2-EeOwgrs4vXTpiA" base_Element="_6pHIcD2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6pQSYD2-EeOwgrs4vXTpiA" base_Element="_6pPEQT2-EeOwgrs4vXTpiA"/>
+  <UMLLabProfile:Reference xmi:id="_6pYOMD2-EeOwgrs4vXTpiA" base_Element="_6pXAED2-EeOwgrs4vXTpiA"/>
+</xmi:XMI>

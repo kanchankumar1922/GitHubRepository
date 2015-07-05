@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_v3O3ED26EeOMtIIG1FphQw" name="Testing_Design_Patterns_facade_Pattern">
+    <eAnnotations xmi:id="_wBLdQD26EeOMtIIG1FphQw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_wBLdQT26EeOMtIIG1FphQw" source="codegen">
+        <details xmi:id="_wBLdQj26EeOMtIIG1FphQw" key="codegenDirectory" value="/Testing-Design-Patterns/src"/>
+        <details xmi:id="_wNNuID26EeOMtIIG1FphQw" key="AssociatedSourceCode" value="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/SubSystemUSB.java;1329951931/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/ComputerSubsystemExecutionException.java;2052885168/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/FacadeTestMain.java;2533245216/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/SubSystem.java;2439591636/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/SubSystemHD.java;545744887/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/SubSystemUI.java;557432542/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/ComputerFacade.java;1285276681/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/UIFailureException.java;3402680253/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/USBFailureException.java;628337443/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/facadepattern/HDFailureException.java;1108825604/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_wIPHgD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPHgT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPHgj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPHgz26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPukD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPukT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPukj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_wIPukz26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_wIQVoT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wHx0gD26EeOMtIIG1FphQw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wHybkD26EeOMtIIG1FphQw" name="kanchan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wHybkT26EeOMtIIG1FphQw" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wHybkj26EeOMtIIG1FphQw" name="designpatterns">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wHzpsD26EeOMtIIG1FphQw" name="facadepattern">
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIOgcD26EeOMtIIG1FphQw" name="SubSystemUSB">
+                <ownedComment xmi:id="_wJ57cD26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_wJcocD26EeOMtIIG1FphQw" general="_wIaGoD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJvjYD26EeOMtIIG1FphQw" name="isUSBStartedSuccessfully" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJwKcD26EeOMtIIG1FphQw" value="false"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ2RED26EeOMtIIG1FphQw" name="startSubSystem" specification="_wIPulD26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>System.out.println(&quot;THE SUBSYSTEM USB STARTING.....&quot;);&#xD;
+		 isUSBStartedSuccessfully = true;&#xD;
+			if(!isUSBStartedSuccessfully) throw new USBFailureException(&quot;EXCEPTION IN STARTING USB SUBSYSTEM&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIPulD26EeOMtIIG1FphQw" name="startSubSystem" method="_wJ2RED26EeOMtIIG1FphQw" raisedException="_wIRjwD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIRjwD26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException">
+                <ownedComment xmi:id="_wJ57cT26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_wJpcxD26EeOMtIIG1FphQw" general="_wJnAgT26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJwKcj26EeOMtIIG1FphQw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJwxgD26EeOMtIIG1FphQw" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_wJwxgT26EeOMtIIG1FphQw" name="errorMessage" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ24ID26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" specification="_wJoOoT26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ24IT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ24Ij26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ24Iz26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage , tw);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ24JD26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" specification="_wISx4D26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ24JT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ24Jj26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ24Jz26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" specification="_wJo1tD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ24KD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ24KT26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(tw);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wISx4D26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" method="_wJ24JD26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wITY8D26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wITY8T26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wISx4T26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wITY8j26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJoOoT26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" method="_wJ24ID26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJo1sT26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJo1sj26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJoOoj26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJo1sD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJo1sz26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJo1tD26EeOMtIIG1FphQw" name="ComputerSubsystemExecutionException" method="_wJ24Jz26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJpcwT26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJpcwj26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJpcwD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJpcwz26EeOMtIIG1FphQw" type="_wIRjwD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIVOID26EeOMtIIG1FphQw" name="FacadeTestMain">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ3fMD26EeOMtIIG1FphQw" name="main" specification="_wIV1MD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ3fMT26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJ3fMj26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>ComputerFacade computer = new ComputerFacade();&#xD;
+		try {&#xD;
+			computer.startComputer();&#xD;
+		} catch (ComputerSubsystemExecutionException e) {&#xD;
+			System.err.println(e.getErrorMessage());&#xD;
+			System.err.println(&quot;the error ocured in class &quot;  + e.getClass().getCanonicalName() + &quot; at line number &quot; + e.getStackTrace()[0].getLineNumber()) ;&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIV1MD26EeOMtIIG1FphQw" name="main" isStatic="true" method="_wJ3fMD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wIV1MT26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wIWcQD26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIWcQT26EeOMtIIG1FphQw" name="HDFailureException">
+                <generalization xmi:id="_wJd2kD26EeOMtIIG1FphQw" general="_wIRjwD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJwxgj26EeOMtIIG1FphQw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJxYkD26EeOMtIIG1FphQw" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_wJxYkT26EeOMtIIG1FphQw" name="errorMessage" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ3fMz26EeOMtIIG1FphQw" name="HDFailureException" specification="_wJqD0D26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_2sp2wD26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>super(errorMessage , tw);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ3fOj26EeOMtIIG1FphQw" name="HDFailureException" specification="_wJqq5D26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_2sp2wz26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>super(tw);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6aZT0D26EeOMtIIG1FphQw" name="HDFailureException" specification="_wIXqYD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_6aZT0T26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIXqYD26EeOMtIIG1FphQw" name="HDFailureException" method="_6aZT0D26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wIXqYj26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wIXqYz26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_6aNtoD26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return"/>
+                  <ownedParameter xmi:id="_2sp2wT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJqD0D26EeOMtIIG1FphQw" name="HDFailureException" method="_wJ3fMz26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJqq4T26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJqq4j26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_6aNGkD26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return"/>
+                  <ownedParameter xmi:id="_6aWQgD26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_2sqd0D26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJqq5D26EeOMtIIG1FphQw" name="HDFailureException" method="_wJ3fOj26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJrR8D26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJrR8T26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_6aOUsD26EeOMtIIG1FphQw" type="_wIWcQT26EeOMtIIG1FphQw" direction="return"/>
+                  <ownedParameter xmi:id="_6aO7wD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIaGoD26EeOMtIIG1FphQw" name="SubSystem" isAbstract="true">
+                <ownedComment xmi:id="_wJ57cj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedOperation xmi:id="_wIaGoT26EeOMtIIG1FphQw" name="startSubSystem" isAbstract="true" raisedException="_wIRjwD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIatsD26EeOMtIIG1FphQw" name="SubSystemHD">
+                <generalization xmi:id="_wJfEsD26EeOMtIIG1FphQw" general="_wIaGoD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJxYkj26EeOMtIIG1FphQw" name="isHDStartedSuccessfully" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJx_oD26EeOMtIIG1FphQw" value="false"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4GQD26EeOMtIIG1FphQw" name="startSubSystem" specification="_wIbUwD26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>System.out.println(&quot;THE SUBSYSTEM HD STARTING.....&quot;);&#xD;
+		// code to start HARD DRIVE &#xD;
+			{&#xD;
+				isHDStartedSuccessfully = false;&#xD;
+			}&#xD;
+		if(!isHDStartedSuccessfully) throw new HDFailureException(&quot;EXCEPTION IN STARTING HARD DRIVE SUBSYSTEM&quot;);&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIbUwD26EeOMtIIG1FphQw" name="startSubSystem" method="_wJ4GQD26EeOMtIIG1FphQw" raisedException="_wIRjwD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIdJ8D26EeOMtIIG1FphQw" name="SubSystemUI">
+                <generalization xmi:id="_wJfEsT26EeOMtIIG1FphQw" general="_wIaGoD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJx_oj26EeOMtIIG1FphQw" name="isUIStartedSuccessfully" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJx_oz26EeOMtIIG1FphQw" value="false"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4GQT26EeOMtIIG1FphQw" name="startSubSystem" specification="_wIdxAD26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>System.out.println(&quot;THE SUBSYSTEM UI STARTING.....&quot;);&#xD;
+		isUIStartedSuccessfully = true;&#xD;
+		if(!isUIStartedSuccessfully) throw new UIFailureException(&quot;EXCEPTION IN STARTING USER INTERFACE SUBSYSTEM&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIdxAD26EeOMtIIG1FphQw" name="startSubSystem" method="_wJ4GQT26EeOMtIIG1FphQw" raisedException="_wIRjwD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIfmMD26EeOMtIIG1FphQw" name="ComputerFacade">
+                <ownedComment xmi:id="_wJ57cz26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_wJymsT26EeOMtIIG1FphQw" name="subSystemUSB" visibility="private" type="_wIOgcD26EeOMtIIG1FphQw" association="_wJ7woD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJzNwT26EeOMtIIG1FphQw" name="subSystemUI" visibility="private" type="_wIdJ8D26EeOMtIIG1FphQw" association="_wJ8XsT26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJz00D26EeOMtIIG1FphQw" name="subSystemHD" visibility="private" type="_wIatsD26EeOMtIIG1FphQw" association="_wJ9l0D26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJz00j26EeOMtIIG1FphQw" name="listSubSystems" visibility="private" type="_wIaGoD26EeOMtIIG1FphQw" isOrdered="true" association="_wJ-M4T26EeOMtIIG1FphQw">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wJz00z26EeOMtIIG1FphQw" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJ0b4D26EeOMtIIG1FphQw" value="new ArrayList&lt;SubSystem>()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4GQj26EeOMtIIG1FphQw" name="ComputerFacade" specification="_wIgNQD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ4GQz26EeOMtIIG1FphQw" type="_wIfmMD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>this.subSystemHD = new SubSystemHD();&#xD;
+	  this.subSystemUI = new SubSystemUI();&#xD;
+	  this.subSystemUSB = new SubSystemUSB();&#xD;
+	  listSubSystems.add(subSystemHD);&#xD;
+	  listSubSystems.add(subSystemUI);&#xD;
+	  listSubSystems.add(subSystemUSB);&#xD;
+	  &#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4GRD26EeOMtIIG1FphQw" name="startComputer" specification="_wIg0Uz26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>for(SubSystem ss : listSubSystems){&#xD;
+			ss.startSubSystem();&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIgNQD26EeOMtIIG1FphQw" name="ComputerFacade" method="_wJ4GQj26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wIg0UD26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wIg0UT26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wIg0Uj26EeOMtIIG1FphQw" type="_wIfmMD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wIg0Uz26EeOMtIIG1FphQw" name="startComputer" method="_wJ4GRD26EeOMtIIG1FphQw" raisedException="_wIRjwD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIj3oD26EeOMtIIG1FphQw" name="UIFailureException">
+                <generalization xmi:id="_wJivED26EeOMtIIG1FphQw" general="_wIRjwD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJ1C8D26EeOMtIIG1FphQw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJ1C8T26EeOMtIIG1FphQw" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_wJ1C8j26EeOMtIIG1FphQw" name="errorMessage" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4tUD26EeOMtIIG1FphQw" name="UIFailureException" specification="_wJr5AD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ4tUT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ4tUj26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ4tUz26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage , tw);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4tVD26EeOMtIIG1FphQw" name="UIFailureException" specification="_wIlFwD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ4tVT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ4tVj26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ4tVz26EeOMtIIG1FphQw" name="UIFailureException" specification="_wJsgEz26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ4tWD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ4tWT26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(tw);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIlFwD26EeOMtIIG1FphQw" name="UIFailureException" method="_wJ4tVD26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wIlFwj26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wIlFwz26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wIlFwT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wIlFxD26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJr5AD26EeOMtIIG1FphQw" name="UIFailureException" method="_wJ4tUD26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJsgED26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJsgET26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJr5AT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJr5Aj26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJsgEj26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJsgEz26EeOMtIIG1FphQw" name="UIFailureException" method="_wJ4tVz26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJtHID26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJtHIT26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJsgFD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJtHIj26EeOMtIIG1FphQw" type="_wIj3oD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wIm68D26EeOMtIIG1FphQw" name="USBFailureException">
+                <generalization xmi:id="_wJj9MD26EeOMtIIG1FphQw" general="_wIRjwD26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_wJ1qAD26EeOMtIIG1FphQw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_wJ1qAT26EeOMtIIG1FphQw" value="1L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_wJ1qAj26EeOMtIIG1FphQw" name="errorMessage" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ5UYD26EeOMtIIG1FphQw" name="USBFailureException" specification="_wJtuMD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ5UYT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ5UYj26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ5UYz26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage , tw);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ5UZD26EeOMtIIG1FphQw" name="USBFailureException" specification="_wIoJED26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ5UZT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJ5UZj26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(errorMessage);&#xD;
+		this.errorMessage = errorMessage;		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wJ5UZz26EeOMtIIG1FphQw" name="USBFailureException" specification="_wJuVQD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_wJ5UaD26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJ5UaT26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>super(tw);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_wIoJED26EeOMtIIG1FphQw" name="USBFailureException" method="_wJ5UZD26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wIowID26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wIowIT26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wIoJET26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wIowIj26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJtuMD26EeOMtIIG1FphQw" name="USBFailureException" method="_wJ5UYD26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJtuMz26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJtuND26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJtuMT26EeOMtIIG1FphQw" name="errorMessage">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_wJtuMj26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJtuNT26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_wJuVQD26EeOMtIIG1FphQw" name="USBFailureException" method="_wJ5UZz26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_wJuVQj26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_wJuVQz26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_wJuVQT26EeOMtIIG1FphQw" name="tw" type="_wJnnkT26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_wJuVRD26EeOMtIIG1FphQw" type="_wIm68D26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_wJ7woD26EeOMtIIG1FphQw" name="" memberEnd="_wJ7woT26EeOMtIIG1FphQw _wJymsT26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_wJ7woT26EeOMtIIG1FphQw" name="" type="_wIfmMD26EeOMtIIG1FphQw" association="_wJ7woD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_wJ8XsT26EeOMtIIG1FphQw" name="" memberEnd="_wJ8Xsj26EeOMtIIG1FphQw _wJzNwT26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_wJ8Xsj26EeOMtIIG1FphQw" name="" type="_wIfmMD26EeOMtIIG1FphQw" association="_wJ8XsT26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_wJ9l0D26EeOMtIIG1FphQw" name="" memberEnd="_wJ9l0T26EeOMtIIG1FphQw _wJz00D26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_wJ9l0T26EeOMtIIG1FphQw" name="" type="_wIfmMD26EeOMtIIG1FphQw" association="_wJ9l0D26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_wJ-M4T26EeOMtIIG1FphQw" name="" memberEnd="_wJ-M4j26EeOMtIIG1FphQw _wJz00j26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_wJ-M4j26EeOMtIIG1FphQw" name="" type="_wIfmMD26EeOMtIIG1FphQw" association="_wJ-M4T26EeOMtIIG1FphQw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wH9asD26EeOMtIIG1FphQw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wH9asT26EeOMtIIG1FphQw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wJfrwD26EeOMtIIG1FphQw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wJg54D26EeOMtIIG1FphQw" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wJnAgD26EeOMtIIG1FphQw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wJnAgT26EeOMtIIG1FphQw" name="Exception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wJnnkT26EeOMtIIG1FphQw" name="Throwable"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_wBRj4D26EeOMtIIG1FphQw">
+      <eAnnotations xmi:id="_wBRj4T26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_wBRj4j26EeOMtIIG1FphQw" base_Package="_v3O3ED26EeOMtIIG1FphQw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wIQVoD26EeOMtIIG1FphQw" base_Element="_wIPulD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_wIQVoj26EeOMtIIG1FphQw" base_Element="_wIPulD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_wIQVoz26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wIb70D26EeOMtIIG1FphQw" base_Element="_wIbUwD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_wIb70T26EeOMtIIG1FphQw" base_Element="_wIbUwD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_wIb70j26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wIdxAT26EeOMtIIG1FphQw" base_Element="_wIdxAD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_wIeYED26EeOMtIIG1FphQw" base_Element="_wIdxAD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_wIeYET26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_wJgS0D26EeOMtIIG1FphQw" base_Element="_wJfrwD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJhg8D26EeOMtIIG1FphQw" base_Element="_wJg54D26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJnnkD26EeOMtIIG1FphQw" base_Element="_wJnAgT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJoOoD26EeOMtIIG1FphQw" base_Element="_wJnnkT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJwKcT26EeOMtIIG1FphQw" base_Element="_wJvjYD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJx_oT26EeOMtIIG1FphQw" base_Element="_wJxYkj26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJymsD26EeOMtIIG1FphQw" base_Element="_wJx_oj26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJzNwD26EeOMtIIG1FphQw" base_Element="_wJymsT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJzNwj26EeOMtIIG1FphQw" base_Element="_wJzNwT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJz00T26EeOMtIIG1FphQw" base_Element="_wJz00D26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wJ0b4T26EeOMtIIG1FphQw" base_Element="_wJz00j26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJ8XsD26EeOMtIIG1FphQw" base_Element="_wJ7woD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJ8-wD26EeOMtIIG1FphQw" base_Element="_wJ8XsT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJ-M4D26EeOMtIIG1FphQw" base_Element="_wJ9l0D26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_wJ-z8D26EeOMtIIG1FphQw" base_Element="_wJ-M4T26EeOMtIIG1FphQw"/>
+</xmi:XMI>

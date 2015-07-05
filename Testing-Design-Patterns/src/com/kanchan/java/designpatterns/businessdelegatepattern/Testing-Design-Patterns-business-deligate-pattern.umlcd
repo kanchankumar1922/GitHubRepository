@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_bRp6MD26EeOMtIIG1FphQw">
+  <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bYx14D26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bc1PcT26EeOMtIIG1FphQw" targetItem="_bc3EqT26EeOMtIIG1FphQw" sourceItem="_bc1PcD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bc3EoD26EeOMtIIG1FphQw" sourceAnchor="0.0,36.0" targetAnchor="97.0,80.0" target="_bdD48T26EeOMtIIG1FphQw" source="_bc3EqT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ2M4T26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_bgwGIj26EeOMtIIG1FphQw" sourceX="-163" targetY="69"/>
+    <stereotypes xmi:id="_bc3EoT26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ2z8D26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bc3Eoj26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_bgx7UD26EeOMtIIG1FphQw" position="123.05045146287773,-15.797531001601413"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bc3Eoz26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ2M4j26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bgxUQT26EeOMtIIG1FphQw" position="-56.462097703124414,-31.620619308085452"/>
+      <visibility xmi:id="_bc3EpD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_bc3EpT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bc3Epj26EeOMtIIG1FphQw" aggregationKind="NONE" name="businessServiceDelegate" navigable="true">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZxUYD26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bgx7UT26EeOMtIIG1FphQw" position="139.14936494797098,38.23287250550277"/>
+      <visibility xmi:id="_bc3Epz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bc3EqD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bc5g4T26EeOMtIIG1FphQw" targetItem="_bc7WED26EeOMtIIG1FphQw" sourceItem="_bc5g4D26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bc5g4j26EeOMtIIG1FphQw" sourceAnchor="193.0,40.0" targetAnchor="178.0,54.0" target="_bc7WED26EeOMtIIG1FphQw" source="_bdD48T26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ0XsD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_bgwtMD26EeOMtIIG1FphQw" sourceX="256" targetY="95"/>
+    <stereotypes xmi:id="_bc6H8z26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ1l0D26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bc6H8D26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_bgzJcD26EeOMtIIG1FphQw" position="-291.3079002116969,1.6706052144882904"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bc6H8T26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ0XsT26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bgyiYD26EeOMtIIG1FphQw" position="41.724734317567766,-10.222597604452773"/>
+      <visibility xmi:id="_bc6vAT26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_bc6vAD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bc6H8j26EeOMtIIG1FphQw" aggregationKind="NONE" name="businesServiceLookup" navigable="true">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZvfMD26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bgzwgD26EeOMtIIG1FphQw" position="-360.22057054040783,85.88419957660616"/>
+      <stereotypes xmi:id="_bc6vBD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwGQT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdDR4D26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwGQT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_bc6vAz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bc6vAj26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bc8kMT26EeOMtIIG1FphQw" targetItem="_bc_AcD26EeOMtIIG1FphQw" sourceItem="_bc8kMD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bc8kMj26EeOMtIIG1FphQw" sourceAnchor="67.0,0.0" targetAnchor="67.0,67.0" dashed="true" superClass="_bc_AcD26EeOMtIIG1FphQw" subClass="_bcyMID26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZuREz26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_bgvfED26EeOMtIIG1FphQw" sourceY="-72" targetX="-30" targetY="28"/>
+    <bendpoints xmi:id="_bgvfET26EeOMtIIG1FphQw" sourceX="30" sourceY="-72" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bc9LQD26EeOMtIIG1FphQw" sourceAnchor="80.0,0.0" targetAnchor="67.0,67.0" dashed="true" superClass="_bc_AcD26EeOMtIIG1FphQw" subClass="_bc0BUD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZu4ID26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_bgwGID26EeOMtIIG1FphQw" sourceY="-27" targetX="204" targetY="28"/>
+    <bendpoints xmi:id="_bgwGIT26EeOMtIIG1FphQw" sourceX="-204" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bc9LQT26EeOMtIIG1FphQw" sourceAnchor="175.0,0.0" targetAnchor="134.0,34.0" target="_bc_AcD26EeOMtIIG1FphQw" source="_bdD48T26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ1l0T26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_bgxUQD26EeOMtIIG1FphQw" sourceY="-203" targetX="232"/>
+    <stereotypes xmi:id="_bc-ZYD26EeOMtIIG1FphQw" name="Reference">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ2M4D26EeOMtIIG1FphQw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bc9yUD26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_bg0-oD26EeOMtIIG1FphQw" position="-32.45408524345146,181.2381277526406"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bc9yUT26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZ1l0j26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bg0XkD26EeOMtIIG1FphQw" position="2.8979290763270455,-65.05649223177247"/>
+      <visibility xmi:id="_bc-ZYj26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_bc-ZYT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bc9yUj26EeOMtIIG1FphQw" aggregationKind="NONE" name="businessService" navigable="true">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwGQj26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_bg0-oT26EeOMtIIG1FphQw" position="197.27740239554726,191.19626356546303"/>
+      <stereotypes xmi:id="_bc-ZZT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwtUD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bdD48D26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwtUD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_bc-ZZD26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bc-ZYz26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bdAOkT26EeOMtIIG1FphQw" targetItem="_bdA1oD26EeOMtIIG1FphQw" sourceItem="_bdAOkD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_bdCq0T26EeOMtIIG1FphQw" targetItem="_bdD48T26EeOMtIIG1FphQw" sourceItem="_bdCq0D26EeOMtIIG1FphQw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bc1PcD26EeOMtIIG1FphQw" sourceConnectionVisual="_bc1PcT26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_bc3EqT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZzwoj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bc5g4D26EeOMtIIG1FphQw" sourceConnectionVisual="_bc5g4T26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_bc7WED26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZzJkj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bc8kMD26EeOMtIIG1FphQw" sourceConnectionVisual="_bc8kMT26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_bc_AcD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZzJkz26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bdAOkD26EeOMtIIG1FphQw" sourceConnectionVisual="_bdAOkT26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_bdA1oD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZzwoT26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_bdCq0D26EeOMtIIG1FphQw" sourceConnectionVisual="_bdCq0T26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_bdD48T26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZzwoD26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bcyMID26EeOMtIIG1FphQw" name="EJBBusinessService" generalizations="_bc8kMj26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZavED26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bcyMIT26EeOMtIIG1FphQw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bcyMIj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_bcyMIz26EeOMtIIG1FphQw" name="doProcessing">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZbWID26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_bcyMJD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZb9MD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bcyMJT26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZb9MT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_bcyMJj26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bc0BUD26EeOMtIIG1FphQw" name="JMSBusinessService" generalizations="_bc9LQD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZckQD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bc0BUT26EeOMtIIG1FphQw" position="251.0,-15.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bc0BUj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_bc0BUz26EeOMtIIG1FphQw" name="doProcessing">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZdLUD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_bc0BVD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZdLUT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bc0BVT26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZdyYD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_bc0BVj26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bc3EqT26EeOMtIIG1FphQw" comments="_bc1PcD26EeOMtIIG1FphQw" targetConnectionVisual="_bc1PcT26EeOMtIIG1FphQw" name="Client" associationsOut="_bc3EoD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZV2kD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bc3Eqj26EeOMtIIG1FphQw" position="511.0,213.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bc3Eqz26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_bc3ErD26EeOMtIIG1FphQw" name="businessServiceDelegate">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZxUYD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_bc3ErT26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZxUYT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bc3Erj26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZxUYT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_bc3Erz26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bc3EsD26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_bc3EsT26EeOMtIIG1FphQw" name="BusinessServiceDelegate">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZNTsD26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bc3Esj26EeOMtIIG1FphQw" name="doTask">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZYS0D26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bc3Esz26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+    <operations xmi:id="_bc3EtD26EeOMtIIG1FphQw" name="Client">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZtqAD26EeOMtIIG1FphQw"/>
+      <keywords xmi:id="_bc3EtT26EeOMtIIG1FphQw" keyword="create"/>
+      <visibility xmi:id="_bc3Etj26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_bc3Etz26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZuREj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_bc3EuD26EeOMtIIG1FphQw" name="Client">
+          <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZV2kD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bc3EuT26EeOMtIIG1FphQw" name="bsd">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZtqAT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_bc3Euj26EeOMtIIG1FphQw" name="BusinessServiceDelegate">
+          <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZNTsD26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bc7WED26EeOMtIIG1FphQw" comments="_bc5g4D26EeOMtIIG1FphQw" targetConnectionVisual="_bc5g4T26EeOMtIIG1FphQw" name="BusinesServiceLookup" associationsIn="_bc5g4j26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZFX4D26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bc7WET26EeOMtIIG1FphQw" position="522.0,-9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bc7WEj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_bc7WEz26EeOMtIIG1FphQw" name="getBusinessService">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZJCQD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bc7WFD26EeOMtIIG1FphQw" label="+"/>
+      <outParameters xmi:id="_bc7WFT26EeOMtIIG1FphQw">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZsb4D26EeOMtIIG1FphQw"/>
+        <type xmi:id="_bc7WFj26EeOMtIIG1FphQw" name="BusinessService">
+          <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZLegD26EeOMtIIG1FphQw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bc7WFz26EeOMtIIG1FphQw" name="businessName">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZJCQT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_bc7WGD26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bc_AcD26EeOMtIIG1FphQw" comments="_bc8kMD26EeOMtIIG1FphQw" targetConnectionVisual="_bc8kMT26EeOMtIIG1FphQw" name="BusinessService" associationsIn="_bc9LQT26EeOMtIIG1FphQw" subclassedBy="_bc8kMj26EeOMtIIG1FphQw _bc9LQD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZLegD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bc_AcT26EeOMtIIG1FphQw" position="60.0,-137.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bc_Acj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_bc_Acz26EeOMtIIG1FphQw" name="doProcessing">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZMsoD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bc_AdD26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdA1oD26EeOMtIIG1FphQw" comments="_bdAOkD26EeOMtIIG1FphQw" targetConnectionVisual="_bdAOkT26EeOMtIIG1FphQw" name="BusinessServiceDelegateTestMain">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZSzQD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bdA1oT26EeOMtIIG1FphQw" position="523.0,351.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdA1oj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_bdA1oz26EeOMtIIG1FphQw" name="main" staticOperation="true">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZUocD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bdA1pD26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_bdA1pT26EeOMtIIG1FphQw" name="args">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZUocT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_bdA1pj26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bdD48T26EeOMtIIG1FphQw" comments="_bdCq0D26EeOMtIIG1FphQw" targetConnectionVisual="_bdCq0T26EeOMtIIG1FphQw" name="BusinessServiceDelegate" associationsIn="_bc3EoD26EeOMtIIG1FphQw" associationsOut="_bc5g4j26EeOMtIIG1FphQw _bc9LQT26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZNTsD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_bdD48j26EeOMtIIG1FphQw" position="251.0,100.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bdD48z26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_bdD49D26EeOMtIIG1FphQw" defaultValue="new BusinesServiceLookup()" name="businesServiceLookup">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZvfMD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bdD49T26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bdD49j26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_bdD49z26EeOMtIIG1FphQw" name="BusinesServiceLookup">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZFX4D26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bdD4-D26EeOMtIIG1FphQw" name="businessService">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwGQj26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bdD4-T26EeOMtIIG1FphQw" label="-"/>
+      <cardinality xmi:id="_bdD4-j26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_bdD4-z26EeOMtIIG1FphQw" name="BusinessService">
+        <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZLegD26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bdD4_D26EeOMtIIG1FphQw" name="businessServiceType">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZwtUT26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bdD4_T26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_bdD4_j26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_bdD4_z26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bdD5AD26EeOMtIIG1FphQw" name="doTask">
+      <modelElement href="Testing-Design-Patterns-business-deligate-pattern.uml#_bZPI4D26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_bdD5AT26EeOMtIIG1FphQw" label="+"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

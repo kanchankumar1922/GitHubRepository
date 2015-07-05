@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_rrBVUD26EeOMtIIG1FphQw">
+  <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_ry_lkD26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_r2PG0D26EeOMtIIG1FphQw" sourceAnchor="149.0,0.0" targetAnchor="0.0,27.0" target="_r2QU9D26EeOMtIIG1FphQw" source="_r2QU9D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhxED26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_r66LcD26EeOMtIIG1FphQw" sourceY="-103" targetX="149" targetY="-130"/>
+    <bendpoints xmi:id="_r66LcT26EeOMtIIG1FphQw" sourceX="-207" sourceY="-103" targetX="-58" targetY="-130"/>
+    <bendpoints xmi:id="_r66ygD26EeOMtIIG1FphQw" sourceX="-207" sourceY="27" targetX="-58"/>
+    <nameVisual xmi:id="_r2Pt4D26EeOMtIIG1FphQw" text="">
+      <visualProperties xmi:id="_r6_rAD26EeOMtIIG1FphQw" position="173.50000000000003,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_r2Pt4T26EeOMtIIG1FphQw" aggregationKind="NONE" name="requestHandler" navigable="true">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzfU0D26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_r6_D8D26EeOMtIIG1FphQw" position="-95.5,-46.00000000000001"/>
+      <visibility xmi:id="_r2QU8T26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_r2QU8D26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_r2Pt4j26EeOMtIIG1FphQw" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhxET26EeOMtIIG1FphQw"/>
+      <visualProperties xmi:id="_r6_rAT26EeOMtIIG1FphQw" position="-19.00000000000003,5.499999999999972"/>
+      <visibility xmi:id="_r2QU8z26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_r2QU8j26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2PG0j26EeOMtIIG1FphQw" targetItem="_r2QU9D26EeOMtIIG1FphQw" sourceItem="_r2PG0T26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_r2SxMD26EeOMtIIG1FphQw" sourceAnchor="0.0,27.0" targetAnchor="179.0,0.0" superClass="_r2QU9D26EeOMtIIG1FphQw" subClass="_r2TYQD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzdfoD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_r67ZkD26EeOMtIIG1FphQw" sourceX="-30" targetX="433" targetY="90"/>
+    <bendpoints xmi:id="_r67ZkT26EeOMtIIG1FphQw" sourceX="-30" sourceY="-223" targetX="433" targetY="-133"/>
+    <bendpoints xmi:id="_r68AoD26EeOMtIIG1FphQw" sourceX="-463" sourceY="-223" targetY="-133"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2SxMj26EeOMtIIG1FphQw" targetItem="_r2TYQD26EeOMtIIG1FphQw" sourceItem="_r2SxMT26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_r2VNcD26EeOMtIIG1FphQw" sourceAnchor="0.0,27.0" targetAnchor="179.0,0.0" superClass="_r2QU9D26EeOMtIIG1FphQw" subClass="_r2WbkD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzbqcD26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_r68nsD26EeOMtIIG1FphQw" sourceX="-30" targetX="433" targetY="200"/>
+    <bendpoints xmi:id="_r69OwD26EeOMtIIG1FphQw" sourceX="-30" sourceY="-333" targetX="433" targetY="-133"/>
+    <bendpoints xmi:id="_r69OwT26EeOMtIIG1FphQw" sourceX="-463" sourceY="-333" targetY="-133"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2VNcj26EeOMtIIG1FphQw" targetItem="_r2WbkD26EeOMtIIG1FphQw" sourceItem="_r2VNcT26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_r2XpsD26EeOMtIIG1FphQw" sourceAnchor="0.0,27.0" targetAnchor="179.0,0.0" superClass="_r2QU9D26EeOMtIIG1FphQw" subClass="_r2Y30D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzcRgz26EeOMtIIG1FphQw"/>
+    <bendpoints xmi:id="_r6910D26EeOMtIIG1FphQw" sourceX="-30" targetX="433" targetY="326"/>
+    <bendpoints xmi:id="_r6-c4D26EeOMtIIG1FphQw" sourceX="-30" sourceY="-459" targetX="433" targetY="-133"/>
+    <bendpoints xmi:id="_r6-c4T26EeOMtIIG1FphQw" sourceX="-463" sourceY="-459" targetY="-133"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2Xpsj26EeOMtIIG1FphQw" targetItem="_r2Y30D26EeOMtIIG1FphQw" sourceItem="_r2XpsT26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2aF8T26EeOMtIIG1FphQw" targetItem="_r2atAD26EeOMtIIG1FphQw" sourceItem="_r2aF8D26EeOMtIIG1FphQw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_r2ciMT26EeOMtIIG1FphQw" targetItem="_r2ciMj26EeOMtIIG1FphQw" sourceItem="_r2ciMD26EeOMtIIG1FphQw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2PG0T26EeOMtIIG1FphQw" sourceConnectionVisual="_r2PG0j26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2QU9D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhKBj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2SxMT26EeOMtIIG1FphQw" sourceConnectionVisual="_r2SxMj26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2TYQD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhKBT26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2VNcT26EeOMtIIG1FphQw" sourceConnectionVisual="_r2VNcj26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2WbkD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhKAz26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2XpsT26EeOMtIIG1FphQw" sourceConnectionVisual="_r2Xpsj26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2Y30D26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhKBD26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2aF8D26EeOMtIIG1FphQw" sourceConnectionVisual="_r2aF8T26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2atAD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhxEj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_r2ciMD26EeOMtIIG1FphQw" sourceConnectionVisual="_r2ciMT26EeOMtIIG1FphQw" text="@author kumark&#xD;&#xA; *" item="_r2ciMj26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzhKAj26EeOMtIIG1FphQw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2QU9D26EeOMtIIG1FphQw" comments="_r2PG0T26EeOMtIIG1FphQw" targetConnectionVisual="_r2PG0j26EeOMtIIG1FphQw" name="RequestHandler" abstractClass="true" associationsIn="_r2PG0D26EeOMtIIG1FphQw" associationsOut="_r2PG0D26EeOMtIIG1FphQw" subclassedBy="_r2SxMD26EeOMtIIG1FphQw _r2VNcD26EeOMtIIG1FphQw _r2XpsD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzLy0D26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2QU9T26EeOMtIIG1FphQw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2QU9j26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_r2QU9z26EeOMtIIG1FphQw" name="requestHandler">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzfU0D26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_r2QU-D26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_r2QU-T26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_r2QU-j26EeOMtIIG1FphQw" name="RequestHandler">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzLy0D26EeOMtIIG1FphQw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_r2QU-z26EeOMtIIG1FphQw" abstractOperation="true" name="processRequest">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzdfoT26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_r2QU_D26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_r2QU_T26EeOMtIIG1FphQw" name="requestObject">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzdfoj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_r2QU_j26EeOMtIIG1FphQw" name="RequestObject">
+          <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzNA8D26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2TYQD26EeOMtIIG1FphQw" comments="_r2SxMT26EeOMtIIG1FphQw" targetConnectionVisual="_r2SxMj26EeOMtIIG1FphQw" name="ConcreteHandlerTwo" generalizations="_r2SxMD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzKksD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2TYQT26EeOMtIIG1FphQw" position="672.0,93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2TYQj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_r2TYQz26EeOMtIIG1FphQw" name="processRequest">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzcRhD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_r2TYRD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzc4kT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r2TYRT26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzc4kj26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_r2TYRj26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_r2TYRz26EeOMtIIG1FphQw" name="requestObject">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzc4kD26EeOMtIIG1FphQw"/>
+        <type xmi:id="_r2TYSD26EeOMtIIG1FphQw" name="RequestObject">
+          <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzNA8D26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2WbkD26EeOMtIIG1FphQw" comments="_r2VNcT26EeOMtIIG1FphQw" targetConnectionVisual="_r2VNcj26EeOMtIIG1FphQw" name="ConcreteHandlerOne" generalizations="_r2VNcD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzIIcD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2WbkT26EeOMtIIG1FphQw" position="672.0,203.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2Wbkj26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_r2Wbkz26EeOMtIIG1FphQw" name="processRequest">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzacUD26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_r2WblD26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzbDYD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r2WblT26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzbDYT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_r2Wblj26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_r2Wblz26EeOMtIIG1FphQw" name="requestObject">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzacUT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_r2WbmD26EeOMtIIG1FphQw" name="RequestObject">
+          <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzNA8D26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2Y30D26EeOMtIIG1FphQw" comments="_r2XpsT26EeOMtIIG1FphQw" targetConnectionVisual="_r2Xpsj26EeOMtIIG1FphQw" name="ConcreteHandlerThree" generalizations="_r2XpsD26EeOMtIIG1FphQw">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzJWkD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2Y30T26EeOMtIIG1FphQw" position="672.0,329.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2Y30j26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_r2Y30z26EeOMtIIG1FphQw" name="processRequest">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzbqcT26EeOMtIIG1FphQw"/>
+      <stereotypes xmi:id="_r2Y31D26EeOMtIIG1FphQw" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzcRgD26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r2Y31T26EeOMtIIG1FphQw" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzcRgT26EeOMtIIG1FphQw"/>
+      </stereotypes>
+      <visibility xmi:id="_r2Y31j26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_r2Y31z26EeOMtIIG1FphQw" name="requestObject">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzbqcj26EeOMtIIG1FphQw"/>
+        <type xmi:id="_r2Y32D26EeOMtIIG1FphQw" name="RequestObject">
+          <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzNA8D26EeOMtIIG1FphQw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2atAD26EeOMtIIG1FphQw" comments="_r2aF8D26EeOMtIIG1FphQw" targetConnectionVisual="_r2aF8T26EeOMtIIG1FphQw" name="RequestObject">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzNA8D26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2atAT26EeOMtIIG1FphQw" position="420.0,12.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2atAj26EeOMtIIG1FphQw" label="+"/>
+    <attributes xmi:id="_r2atAz26EeOMtIIG1FphQw" name="requestName">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzfU0T26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_r2atBD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_r2atBT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_r2atBj26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r2atBz26EeOMtIIG1FphQw" name="requestDescription">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzf74D26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_r2atCD26EeOMtIIG1FphQw" label="+"/>
+      <cardinality xmi:id="_r2atCT26EeOMtIIG1FphQw" label="1" max="1" min="1"/>
+      <type xmi:id="_r2atCj26EeOMtIIG1FphQw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r2ciMj26EeOMtIIG1FphQw" comments="_r2ciMD26EeOMtIIG1FphQw" targetConnectionVisual="_r2ciMT26EeOMtIIG1FphQw" name="ChainOfResponsibilityTestMain">
+    <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzFsMD26EeOMtIIG1FphQw"/>
+    <visualProperties xmi:id="_r2ciMz26EeOMtIIG1FphQw" position="1059.0,-10.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_r2ciND26EeOMtIIG1FphQw" label="+"/>
+    <operations xmi:id="_r2ciNT26EeOMtIIG1FphQw" name="main" staticOperation="true">
+      <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzHhYD26EeOMtIIG1FphQw"/>
+      <visibility xmi:id="_r2ciNj26EeOMtIIG1FphQw" label="+"/>
+      <parameters xmi:id="_r2ciNz26EeOMtIIG1FphQw" name="args">
+        <modelElement href="Testing-Design-Patterns-chainofresponsibilities.uml#_rzHhYT26EeOMtIIG1FphQw"/>
+        <type xmi:id="_r2ciOD26EeOMtIIG1FphQw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,9 @@
+if you needed to keep track of how often you see the same word, 
+even though you only want to count it once you could make a 
+variable that keeps track of that frequency and put it in a list
+such that the index of the frequency count is the same as the 
+index in the ArrayList so you know which word the frequency 
+corresponds too or better yet use a HashMap where the key is 
+the distinct word and the value is its frequency basically 
+use the same code as above but instead of ArrayList use HashMap 
+and add in some variable to count the frequency

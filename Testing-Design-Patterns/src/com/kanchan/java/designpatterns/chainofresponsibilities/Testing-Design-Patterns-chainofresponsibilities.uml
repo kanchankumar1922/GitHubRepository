@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_rjOEMD26EeOMtIIG1FphQw" name="Testing_Design_Patterns_chainofresponsibilities">
+    <eAnnotations xmi:id="_rs_rQD26EeOMtIIG1FphQw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_rtASUD26EeOMtIIG1FphQw" source="codegen">
+        <details xmi:id="_rtASUT26EeOMtIIG1FphQw" key="codegenDirectory" value="/Testing-Design-Patterns/src"/>
+        <details xmi:id="_r1k_gD26EeOMtIIG1FphQw" key="AssociatedSourceCode" value="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/ChainOfResponsibilityTestMain.java;1755981041/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/ConcreteHandlerOne.java;2173018605/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/ConcreteHandlerThree.java;1729707231/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/ConcreteHandlerTwo.java;3597062364/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/RequestHandler.java;318990889/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/chainofresponsibilities/RequestObject.java;3369527215/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_rzGTQD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6UD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6UT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6Uj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6Uz26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6VD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6VT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6Vj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_rzG6Vz26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ry-XcD26EeOMtIIG1FphQw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ry--gD26EeOMtIIG1FphQw" name="kanchan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ry--gT26EeOMtIIG1FphQw" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ry--gj26EeOMtIIG1FphQw" name="designpatterns">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ry_lkD26EeOMtIIG1FphQw" name="chainofresponsibilities">
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzFsMD26EeOMtIIG1FphQw" name="ChainOfResponsibilityTestMain">
+                <ownedComment xmi:id="_rzhKAj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rzf74T26EeOMtIIG1FphQw" name="main" specification="_rzHhYD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzf74j26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzf74z26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>RequestObject requestObject = new RequestObject();&#xD;
+		requestObject.setRequestName(&quot;requestthree&quot;);&#xD;
+		&#xD;
+		RequestHandler requestHandlerOne = new ConcreteHandlerOne();&#xD;
+		RequestHandler requestHandlerTwo = new ConcreteHandlerTwo();&#xD;
+		RequestHandler requestHandlerThree = new ConcreteHandlerThree();&#xD;
+		&#xD;
+		requestHandlerOne.setRequestHandler(requestHandlerTwo);&#xD;
+		requestHandlerTwo.setRequestHandler(requestHandlerThree);&#xD;
+		&#xD;
+		System.out.println(requestHandlerOne);&#xD;
+		System.out.println(requestHandlerTwo);&#xD;
+		&#xD;
+		System.out.println(requestHandlerOne.getRequestHandler());&#xD;
+		System.out.println(requestHandlerTwo.getRequestHandler());&#xD;
+		&#xD;
+		requestHandlerOne.processRequest(requestObject);&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rzHhYD26EeOMtIIG1FphQw" name="main" isStatic="true" method="_rzf74T26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzHhYT26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rzHhYj26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzIIcD26EeOMtIIG1FphQw" name="ConcreteHandlerOne">
+                <ownedComment xmi:id="_rzhKAz26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_rzbqcD26EeOMtIIG1FphQw" general="_rzLy0D26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rzgi8D26EeOMtIIG1FphQw" name="processRequest" specification="_rzacUD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzgi8T26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                  <language>java</language>
+                  <body>if(null != requestObject &amp;&amp; requestObject.getRequestName().equalsIgnoreCase(&quot;RequestOne&quot;)) {&#xD;
+			 System.out.println(ConcreteHandlerOne.class.getSimpleName() + &quot; Is Handling the request&quot;);&#xD;
+		 }&#xD;
+		 else {&#xD;
+			 System.out.println(&quot;Passing request to the handler &quot; + getRequestHandler().getClass().getSimpleName());&#xD;
+			 getRequestHandler().processRequest(requestObject);&#xD;
+		 }&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rzacUD26EeOMtIIG1FphQw" name="processRequest" method="_rzgi8D26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzacUT26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzJWkD26EeOMtIIG1FphQw" name="ConcreteHandlerThree">
+                <ownedComment xmi:id="_rzhKBD26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_rzcRgz26EeOMtIIG1FphQw" general="_rzLy0D26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rzgi8j26EeOMtIIG1FphQw" name="processRequest" specification="_rzbqcT26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzgi8z26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                  <language>java</language>
+                  <body>if(null != requestObject &amp;&amp; requestObject.getRequestName().equalsIgnoreCase(&quot;RequestThree&quot;)) {&#xD;
+			 System.out.println(ConcreteHandlerThree.class.getSimpleName() + &quot; Is Handling the request&quot;);&#xD;
+		 }&#xD;
+		 else {&#xD;
+			 System.out.println(&quot;Passing request to the handler &quot; + getRequestHandler().getClass().getSimpleName());&#xD;
+			 getRequestHandler().processRequest(requestObject);&#xD;
+		 }&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rzbqcT26EeOMtIIG1FphQw" name="processRequest" method="_rzgi8j26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzbqcj26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzKksD26EeOMtIIG1FphQw" name="ConcreteHandlerTwo">
+                <ownedComment xmi:id="_rzhKBT26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <generalization xmi:id="_rzdfoD26EeOMtIIG1FphQw" general="_rzLy0D26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rzhKAD26EeOMtIIG1FphQw" name="processRequest" specification="_rzcRhD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzhKAT26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                  <language>java</language>
+                  <body>if(null != requestObject &amp;&amp; requestObject.getRequestName().equalsIgnoreCase(&quot;RequestTwo&quot;)) {&#xD;
+			 System.out.println(ConcreteHandlerTwo.class.getSimpleName() + &quot; Is Handling the request&quot;);&#xD;
+		 }&#xD;
+		 else {&#xD;
+			 System.out.println(&quot;Passing request to the handler &quot; + getRequestHandler().getClass().getSimpleName());&#xD;
+			 getRequestHandler().processRequest(requestObject);&#xD;
+		 }&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_rzcRhD26EeOMtIIG1FphQw" name="processRequest" method="_rzhKAD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_rzc4kD26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzLy0D26EeOMtIIG1FphQw" name="RequestHandler" isAbstract="true">
+                <ownedComment xmi:id="_rzhKBj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_rzfU0D26EeOMtIIG1FphQw" name="requestHandler" type="_rzLy0D26EeOMtIIG1FphQw" association="_rzhxED26EeOMtIIG1FphQw"/>
+                <ownedOperation xmi:id="_rzdfoT26EeOMtIIG1FphQw" name="processRequest" isAbstract="true">
+                  <ownedParameter xmi:id="_rzdfoj26EeOMtIIG1FphQw" name="requestObject" type="_rzNA8D26EeOMtIIG1FphQw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_rzNA8D26EeOMtIIG1FphQw" name="RequestObject">
+                <ownedComment xmi:id="_rzhxEj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_rzfU0T26EeOMtIIG1FphQw" name="requestName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_rzf74D26EeOMtIIG1FphQw" name="requestDescription">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_rzhxED26EeOMtIIG1FphQw" name="" memberEnd="_rzfU0D26EeOMtIIG1FphQw _rzhxET26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_rzhxET26EeOMtIIG1FphQw" name="" type="_rzLy0D26EeOMtIIG1FphQw" association="_rzhxED26EeOMtIIG1FphQw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_rtA5YD26EeOMtIIG1FphQw">
+      <eAnnotations xmi:id="_rtA5YT26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_rtA5Yj26EeOMtIIG1FphQw" base_Package="_rjOEMD26EeOMtIIG1FphQw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rzbDYD26EeOMtIIG1FphQw" base_Element="_rzacUD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_rzbDYT26EeOMtIIG1FphQw" base_Element="_rzacUD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_rzbDYj26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rzcRgD26EeOMtIIG1FphQw" base_Element="_rzbqcT26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_rzcRgT26EeOMtIIG1FphQw" base_Element="_rzbqcT26EeOMtIIG1FphQw">
+    <annotations xmi:id="_rzcRgj26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rzc4kT26EeOMtIIG1FphQw" base_Element="_rzcRhD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_rzc4kj26EeOMtIIG1FphQw" base_Element="_rzcRhD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_rzc4kz26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

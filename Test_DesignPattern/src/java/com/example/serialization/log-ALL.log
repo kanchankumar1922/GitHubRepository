@@ -1,0 +1,28 @@
+Dec 24, 2014 9:45:52 PM com.example.serialization.DeserializeDemo main
+INFO: Deserialized Employee...
+-------------------------------------
+ Employee Class location :: com.example.serialization.Employee 
+ Employee Hash Code :: 865113938
+ Employee Name: Kanchan Kumar
+ Employee Address: 450 S Peachtree pkwy , Peachtree city , GA 30269
+ Employee SSN: 844475259
+ Employee Number: 101
+--------------------------------------
+
+Dec 24, 2014 9:45:52 PM com.example.serialization.DeserializeDemo main
+WARNING: Warnign Log Enabled :: 
+-------------------------------------
+ Employee Class location :: com.example.serialization.Employee 
+ Employee Hash Code :: 865113938
+ Employee Name: Kanchan Kumar
+ Employee Address: 450 S Peachtree pkwy , Peachtree city , GA 30269
+ Employee SSN: 844475259
+ Employee Number: 101
+--------------------------------------
+
+Dec 24, 2014 9:45:52 PM com.example.serialization.DeserializeDemo main
+SEVERE: SEVERE Log Enabled :: 
+Dec 24, 2014 9:45:52 PM com.example.serialization.DeserializeDemo main
+INFO: SEVERE Log Enabled :: 
+Dec 24, 2014 9:45:52 PM com.example.serialization.DeserializeDemo main
+FINE: SEVERE Log Enabled :: 

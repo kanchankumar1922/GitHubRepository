@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.kanchan.java.designpatterns.adapterpattern.StrategyFloatAdapter" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/StrategyFloatAdapter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="214" x="726" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.kanchan.java.designpatterns.adapterpattern.SubtractionStrategy" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/Strategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="214" x="472" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.kanchan.java.designpatterns.adapterpattern.Strategy" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/Strategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="214" x="853" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.kanchan.java.designpatterns.adapterpattern.StrategyTestMain" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/StrategyTestMain.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="214" x="218" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.kanchan.java.designpatterns.adapterpattern.Context" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/Context.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="214" x="980" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.kanchan.java.designpatterns.adapterpattern.AddingStrategy" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/adapterpattern/Strategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="214" x="1234" y="192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="8" name="strategy"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="12" name="strategy"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

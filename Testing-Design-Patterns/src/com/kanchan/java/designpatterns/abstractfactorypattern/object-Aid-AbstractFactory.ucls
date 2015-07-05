@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.MsWindow" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/MsWindow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1005" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.AbstractFactoryTestMain" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/AbstractFactoryTestMain.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="301" x="88" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.Elephant" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/Elephant.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="429" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.Creature" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/Creature.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="717" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.CreatureFactory" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/CreatureFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1581" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.Eagle" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/Eagle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="717" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.MacWindow" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/MacWindow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1293" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.WindowFactory" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/WindowFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1869" y="368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.Window" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/Window.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1149" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.FactoryProducer" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/FactoryProducer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="429" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.kanchan.java.designpatterns.abstractfactorypattern.AbstractFactory" 
+    project="Testing-Design-Patterns" 
+    file="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/abstractfactorypattern/AbstractFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="248" x="1725" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

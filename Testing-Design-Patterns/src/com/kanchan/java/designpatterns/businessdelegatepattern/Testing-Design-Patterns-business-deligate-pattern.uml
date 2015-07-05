@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_bKF5oD26EeOMtIIG1FphQw" name="Testing_Design_Patterns_business_deligate_pattern">
+    <eAnnotations xmi:id="_bTV8QD26EeOMtIIG1FphQw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_bTV8QT26EeOMtIIG1FphQw" source="codegen">
+        <details xmi:id="_bTV8Qj26EeOMtIIG1FphQw" key="codegenDirectory" value="/Testing-Design-Patterns/src"/>
+        <details xmi:id="_bcLIID26EeOMtIIG1FphQw" key="AssociatedSourceCode" value="/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/BusinesServiceLookup.java;2936253464/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/BusinessService.java;2095194844/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/BusinessServiceDelegate.java;1886619487/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/BusinessServiceDelegateTestMain.java;3976857859/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/Client.java;3880648726/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/EJBBusinessService.java;3180774112/1;/Testing-Design-Patterns/src/com/kanchan/java/designpatterns/businessdelegatepattern/JMSBusinessService.java;2243488658/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_bZGmAD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_bZGmAT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_bZGmAj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_bZHNED26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_bZHNET26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_bZHNEj26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_bZH0ID26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_bZH0IT26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_bZIbMD26EeOMtIIG1FphQw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bYvZoD26EeOMtIIG1FphQw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bYvZoT26EeOMtIIG1FphQw" name="kanchan">
+        <packagedElement xmi:type="uml:Package" xmi:id="_bYwAsD26EeOMtIIG1FphQw" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_bYwAsT26EeOMtIIG1FphQw" name="designpatterns">
+            <packagedElement xmi:type="uml:Package" xmi:id="_bYx14D26EeOMtIIG1FphQw" name="businessdelegatepattern">
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZFX4D26EeOMtIIG1FphQw" name="BusinesServiceLookup">
+                <ownedComment xmi:id="_bZzJkj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZx7cD26EeOMtIIG1FphQw" name="getBusinessService" specification="_bZJCQD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_bZx7cT26EeOMtIIG1FphQw" name="businessName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_bZx7cj26EeOMtIIG1FphQw" type="_bZLegD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>if(null != businessName &amp;&amp; businessName != &quot;&quot; &amp;&amp; businessName.equalsIgnoreCase(&quot;JMS&quot;)) return new JMSBusinessService();&#xD;
+		else if(null != businessName &amp;&amp; businessName != &quot;&quot; &amp;&amp; businessName.equalsIgnoreCase(&quot;EJB&quot;)) return new EJBBusinessService();&#xD;
+		else return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZJCQD26EeOMtIIG1FphQw" name="getBusinessService" method="_bZx7cD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_bZJCQT26EeOMtIIG1FphQw" name="businessName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_bZsb4D26EeOMtIIG1FphQw" type="_bZLegD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_bZLegD26EeOMtIIG1FphQw" name="BusinessService">
+                <ownedComment xmi:id="_bZzJkz26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedOperation xmi:id="_bZMsoD26EeOMtIIG1FphQw" name="doProcessing"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZNTsD26EeOMtIIG1FphQw" name="BusinessServiceDelegate">
+                <ownedComment xmi:id="_bZzwoD26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_bZvfMD26EeOMtIIG1FphQw" name="businesServiceLookup" visibility="private" type="_bZFX4D26EeOMtIIG1FphQw" association="_bZ0XsD26EeOMtIIG1FphQw">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_bZwGQD26EeOMtIIG1FphQw" value="new BusinesServiceLookup()"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_bZwGQj26EeOMtIIG1FphQw" name="businessService" visibility="private" type="_bZLegD26EeOMtIIG1FphQw" association="_bZ1l0T26EeOMtIIG1FphQw"/>
+                <ownedAttribute xmi:id="_bZwtUT26EeOMtIIG1FphQw" name="businessServiceType">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZx7cz26EeOMtIIG1FphQw" name="doTask" specification="_bZPI4D26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>this.businessService = businesServiceLookup.getBusinessService(businessServiceType);&#xD;
+		businessService.doProcessing();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZPI4D26EeOMtIIG1FphQw" name="doTask" method="_bZx7cz26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZSzQD26EeOMtIIG1FphQw" name="BusinessServiceDelegateTestMain">
+                <ownedComment xmi:id="_bZzwoT26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZyigD26EeOMtIIG1FphQw" name="main" specification="_bZUocD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_bZyigT26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bZyigj26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>BusinessServiceDelegate businessServiceDelegate = new BusinessServiceDelegate();&#xD;
+		businessServiceDelegate.setBusinessServiceType(&quot;JMS&quot;);&#xD;
+		&#xD;
+		Client client = new Client(businessServiceDelegate);&#xD;
+		client.doTask();&#xD;
+		&#xD;
+		businessServiceDelegate.setBusinessServiceType(&quot;EJB&quot;);&#xD;
+		client.doTask();&#xD;
+&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZUocD26EeOMtIIG1FphQw" name="main" isStatic="true" method="_bZyigD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_bZUocT26EeOMtIIG1FphQw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bZVPgD26EeOMtIIG1FphQw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZV2kD26EeOMtIIG1FphQw" name="Client">
+                <ownedComment xmi:id="_bZzwoj26EeOMtIIG1FphQw">
+                  <body>@author kumark&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_bZxUYD26EeOMtIIG1FphQw" name="businessServiceDelegate" visibility="private" type="_bZNTsD26EeOMtIIG1FphQw" association="_bZ2M4T26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZyigz26EeOMtIIG1FphQw" name="Client" specification="_bZtqAD26EeOMtIIG1FphQw">
+                  <ownedParameter xmi:id="_bZyihD26EeOMtIIG1FphQw" name="bsd" type="_bZNTsD26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_bZyihT26EeOMtIIG1FphQw" type="_bZV2kD26EeOMtIIG1FphQw" direction="return"/>
+                  <language>java</language>
+                  <body>this.businessServiceDelegate = bsd;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZyihj26EeOMtIIG1FphQw" name="doTask" specification="_bZYS0D26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>this.businessServiceDelegate.doTask();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZYS0D26EeOMtIIG1FphQw" name="doTask" method="_bZyihj26EeOMtIIG1FphQw"/>
+                <ownedOperation xmi:id="_bZtqAD26EeOMtIIG1FphQw" name="Client" method="_bZyigz26EeOMtIIG1FphQw">
+                  <eAnnotations xmi:id="_bZuRED26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_bZuRET26EeOMtIIG1FphQw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_bZtqAT26EeOMtIIG1FphQw" name="bsd" type="_bZNTsD26EeOMtIIG1FphQw"/>
+                  <ownedParameter xmi:id="_bZuREj26EeOMtIIG1FphQw" type="_bZV2kD26EeOMtIIG1FphQw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZavED26EeOMtIIG1FphQw" clientDependency="_bZuREz26EeOMtIIG1FphQw" name="EJBBusinessService">
+                <interfaceRealization xmi:id="_bZuREz26EeOMtIIG1FphQw" client="_bZavED26EeOMtIIG1FphQw" supplier="_bZLegD26EeOMtIIG1FphQw" contract="_bZLegD26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZzJkD26EeOMtIIG1FphQw" name="doProcessing" specification="_bZbWID26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>System.out.println(&quot;Processign service &quot; + EJBBusinessService.class.getSimpleName());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZbWID26EeOMtIIG1FphQw" name="doProcessing" method="_bZzJkD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bZckQD26EeOMtIIG1FphQw" clientDependency="_bZu4ID26EeOMtIIG1FphQw" name="JMSBusinessService">
+                <interfaceRealization xmi:id="_bZu4ID26EeOMtIIG1FphQw" client="_bZckQD26EeOMtIIG1FphQw" supplier="_bZLegD26EeOMtIIG1FphQw" contract="_bZLegD26EeOMtIIG1FphQw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bZzJkT26EeOMtIIG1FphQw" name="doProcessing" specification="_bZdLUD26EeOMtIIG1FphQw">
+                  <language>java</language>
+                  <body>System.out.println(&quot;Processign service &quot; + JMSBusinessService.class.getSimpleName());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_bZdLUD26EeOMtIIG1FphQw" name="doProcessing" method="_bZzJkT26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bZ0XsD26EeOMtIIG1FphQw" name="" memberEnd="_bZ0XsT26EeOMtIIG1FphQw _bZvfMD26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_bZ0XsT26EeOMtIIG1FphQw" name="" type="_bZNTsD26EeOMtIIG1FphQw" association="_bZ0XsD26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bZ1l0T26EeOMtIIG1FphQw" name="" memberEnd="_bZ1l0j26EeOMtIIG1FphQw _bZwGQj26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_bZ1l0j26EeOMtIIG1FphQw" name="" type="_bZNTsD26EeOMtIIG1FphQw" association="_bZ1l0T26EeOMtIIG1FphQw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bZ2M4T26EeOMtIIG1FphQw" name="" memberEnd="_bZ2M4j26EeOMtIIG1FphQw _bZxUYD26EeOMtIIG1FphQw">
+                <ownedEnd xmi:id="_bZ2M4j26EeOMtIIG1FphQw" name="" type="_bZV2kD26EeOMtIIG1FphQw" association="_bZ2M4T26EeOMtIIG1FphQw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_bTWjUD26EeOMtIIG1FphQw">
+      <eAnnotations xmi:id="_bTWjUT26EeOMtIIG1FphQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_bTWjUj26EeOMtIIG1FphQw" base_Package="_bKF5oD26EeOMtIIG1FphQw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bZb9MD26EeOMtIIG1FphQw" base_Element="_bZbWID26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_bZb9MT26EeOMtIIG1FphQw" base_Element="_bZbWID26EeOMtIIG1FphQw">
+    <annotations xmi:id="_bZb9Mj26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bZdLUT26EeOMtIIG1FphQw" base_Element="_bZdLUD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Annotations xmi:id="_bZdyYD26EeOMtIIG1FphQw" base_Element="_bZdLUD26EeOMtIIG1FphQw">
+    <annotations xmi:id="_bZdyYT26EeOMtIIG1FphQw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bZwGQT26EeOMtIIG1FphQw" base_Element="_bZvfMD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bZwtUD26EeOMtIIG1FphQw" base_Element="_bZwGQj26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_bZxUYT26EeOMtIIG1FphQw" base_Element="_bZxUYD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_bZ1l0D26EeOMtIIG1FphQw" base_Element="_bZ0XsD26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_bZ2M4D26EeOMtIIG1FphQw" base_Element="_bZ1l0T26EeOMtIIG1FphQw"/>
+  <UMLLabProfile:Reference xmi:id="_bZ2z8D26EeOMtIIG1FphQw" base_Element="_bZ2M4T26EeOMtIIG1FphQw"/>
+</xmi:XMI>

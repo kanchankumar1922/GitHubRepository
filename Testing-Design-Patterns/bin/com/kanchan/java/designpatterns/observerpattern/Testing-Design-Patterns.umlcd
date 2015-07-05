@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6grlMD2-EeOwgrs4vXTpiA">
+  <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6n8q0D2-EeOwgrs4vXTpiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6s9GoD2-EeOwgrs4vXTpiA" targetItem="_6s9tsD2-EeOwgrs4vXTpiA" sourceItem="_6s8fkD2-EeOwgrs4vXTpiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6s_i4T2-EeOwgrs4vXTpiA" targetItem="_6tCmMD2-EeOwgrs4vXTpiA" sourceItem="_6s_i4D2-EeOwgrs4vXTpiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6tAJ8T2-EeOwgrs4vXTpiA" targetItem="_6tCmPT2-EeOwgrs4vXTpiA" sourceItem="_6tAJ8D2-EeOwgrs4vXTpiA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6tB_ID2-EeOwgrs4vXTpiA" sourceAnchor="251.0,59.0" targetAnchor="23.0,67.0" target="_6tHesD2-EeOwgrs4vXTpiA" source="_6tCmMD2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pXAED2-EeOwgrs4vXTpiA"/>
+    <bendpoints xmi:id="_6wb4cD2-EeOwgrs4vXTpiA" sourceX="83" targetY="114"/>
+    <stereotypes xmi:id="_6tB_IT2-EeOwgrs4vXTpiA" name="Reference">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pYOMD2-EeOwgrs4vXTpiA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6tB_Ij2-EeOwgrs4vXTpiA" text="">
+      <visualProperties xmi:id="_6weUsD2-EeOwgrs4vXTpiA" position="-70.46969208252875,-6.129829962888046"/>
+    </nameVisual>
+    <sourceRole xmi:id="_6tB_Iz2-EeOwgrs4vXTpiA" aggregationKind="NONE" name="">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pXAET2-EeOwgrs4vXTpiA"/>
+      <visualProperties xmi:id="_6wcfgD2-EeOwgrs4vXTpiA" position="32.97322151748348,-14.721456800006116"/>
+      <visibility xmi:id="_6tB_JD2-EeOwgrs4vXTpiA" label="+"/>
+      <cardinality xmi:id="_6tB_JT2-EeOwgrs4vXTpiA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6tB_Jj2-EeOwgrs4vXTpiA" aggregationKind="NONE" name="listOfObservers" navigable="true">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pPEQT2-EeOwgrs4vXTpiA"/>
+      <visualProperties xmi:id="_6we7wD2-EeOwgrs4vXTpiA" position="-61.850983439244715,99.21897058968467"/>
+      <visibility xmi:id="_6tB_Jz2-EeOwgrs4vXTpiA" label="~"/>
+      <cardinality xmi:id="_6tB_KD2-EeOwgrs4vXTpiA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6tGQkT2-EeOwgrs4vXTpiA" targetItem="_6tHesD2-EeOwgrs4vXTpiA" sourceItem="_6tGQkD2-EeOwgrs4vXTpiA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_6tGQkj2-EeOwgrs4vXTpiA" sourceAnchor="51.0,0.0" targetAnchor="53.0,67.0" dashed="true" superClass="_6tHesD2-EeOwgrs4vXTpiA" subClass="_6s9tsD2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pMA8D2-EeOwgrs4vXTpiA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_6tJT4T2-EeOwgrs4vXTpiA" targetItem="_6tJ68D2-EeOwgrs4vXTpiA" sourceItem="_6tJT4D2-EeOwgrs4vXTpiA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6s8fkD2-EeOwgrs4vXTpiA" sourceConnectionVisual="_6s9GoD2-EeOwgrs4vXTpiA" text="@author kumark&#xD;&#xA; *" item="_6s9tsD2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pVx8T2-EeOwgrs4vXTpiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6s_i4D2-EeOwgrs4vXTpiA" sourceConnectionVisual="_6s_i4T2-EeOwgrs4vXTpiA" text="@author kumark&#xD;&#xA; *" item="_6tCmMD2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pVK4D2-EeOwgrs4vXTpiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6tAJ8D2-EeOwgrs4vXTpiA" sourceConnectionVisual="_6tAJ8T2-EeOwgrs4vXTpiA" text="@param loanInterest the loanInterest to set" item="_6tCmPT2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pVx8D2-EeOwgrs4vXTpiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6tGQkD2-EeOwgrs4vXTpiA" sourceConnectionVisual="_6tGQkT2-EeOwgrs4vXTpiA" text="@author kumark&#xD;&#xA; *" item="_6tHesD2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pVx8j2-EeOwgrs4vXTpiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_6tJT4D2-EeOwgrs4vXTpiA" sourceConnectionVisual="_6tJT4T2-EeOwgrs4vXTpiA" text="@author kumark&#xD;&#xA; *" item="_6tJ68D2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pWZAD2-EeOwgrs4vXTpiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6s9tsD2-EeOwgrs4vXTpiA" comments="_6s8fkD2-EeOwgrs4vXTpiA" targetConnectionVisual="_6s9GoD2-EeOwgrs4vXTpiA" name="CarLoan" generalizations="_6tGQkj2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6ojHwD2-EeOwgrs4vXTpiA"/>
+    <visualProperties xmi:id="_6s9tsT2-EeOwgrs4vXTpiA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6s9tsj2-EeOwgrs4vXTpiA" label="+"/>
+    <operations xmi:id="_6s9tsz2-EeOwgrs4vXTpiA" name="update">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oju0D2-EeOwgrs4vXTpiA"/>
+      <stereotypes xmi:id="_6s9ttD2-EeOwgrs4vXTpiA" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6okV4D2-EeOwgrs4vXTpiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6s9ttT2-EeOwgrs4vXTpiA" name="Annotations">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6ok88D2-EeOwgrs4vXTpiA"/>
+      </stereotypes>
+      <visibility xmi:id="_6s9ttj2-EeOwgrs4vXTpiA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6tCmMD2-EeOwgrs4vXTpiA" comments="_6s_i4D2-EeOwgrs4vXTpiA" targetConnectionVisual="_6s_i4T2-EeOwgrs4vXTpiA" name="BankLoan" associationsOut="_6tB_ID2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oak4D2-EeOwgrs4vXTpiA"/>
+    <visualProperties xmi:id="_6tCmMT2-EeOwgrs4vXTpiA" position="-283.0,-98.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6tCmMj2-EeOwgrs4vXTpiA" label="+"/>
+    <attributes xmi:id="_6tCmMz2-EeOwgrs4vXTpiA" defaultValue="2.5f" name="loanInterest">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pOdMD2-EeOwgrs4vXTpiA"/>
+      <visibility xmi:id="_6tCmND2-EeOwgrs4vXTpiA" label="+"/>
+      <cardinality xmi:id="_6tCmNT2-EeOwgrs4vXTpiA" label="1" max="1" min="1"/>
+      <type xmi:id="_6tCmNj2-EeOwgrs4vXTpiA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6tCmNz2-EeOwgrs4vXTpiA" defaultValue="new ArrayList&lt;Observer>()" name="listOfObservers">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pPEQT2-EeOwgrs4vXTpiA"/>
+      <stereotypes xmi:id="_6tCmOD2-EeOwgrs4vXTpiA" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pQSYD2-EeOwgrs4vXTpiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6tCmOT2-EeOwgrs4vXTpiA" name="LegacyStyledElement">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pQSYD2-EeOwgrs4vXTpiA"/>
+      </stereotypes>
+      <visibility xmi:id="_6tCmOj2-EeOwgrs4vXTpiA" label="~"/>
+      <cardinality xmi:id="_6tCmOz2-EeOwgrs4vXTpiA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_6tCmPD2-EeOwgrs4vXTpiA" name="Observer">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6omLED2-EeOwgrs4vXTpiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6tCmPT2-EeOwgrs4vXTpiA" comments="_6tAJ8D2-EeOwgrs4vXTpiA" targetConnectionVisual="_6tAJ8T2-EeOwgrs4vXTpiA" name="setLoanInterest">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oePQD2-EeOwgrs4vXTpiA"/>
+      <visibility xmi:id="_6tCmPj2-EeOwgrs4vXTpiA" label="+"/>
+      <parameters xmi:id="_6tCmPz2-EeOwgrs4vXTpiA" name="loanInterest">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oePQT2-EeOwgrs4vXTpiA"/>
+        <type xmi:id="_6tCmQD2-EeOwgrs4vXTpiA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6tCmQT2-EeOwgrs4vXTpiA" name="notifyAllObservers">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oe2UD2-EeOwgrs4vXTpiA"/>
+      <visibility xmi:id="_6tCmQj2-EeOwgrs4vXTpiA" label="+"/>
+    </operations>
+    <operations xmi:id="_6tCmQz2-EeOwgrs4vXTpiA" name="BankLoan">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pI9oD2-EeOwgrs4vXTpiA"/>
+      <keywords xmi:id="_6tCmRD2-EeOwgrs4vXTpiA" keyword="create"/>
+      <visibility xmi:id="_6tCmRT2-EeOwgrs4vXTpiA" label="+"/>
+      <outParameters xmi:id="_6tCmRj2-EeOwgrs4vXTpiA">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pJksz2-EeOwgrs4vXTpiA"/>
+        <type xmi:id="_6tCmRz2-EeOwgrs4vXTpiA" name="BankLoan">
+          <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oak4D2-EeOwgrs4vXTpiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6tCmSD2-EeOwgrs4vXTpiA" name="o">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6pJksD2-EeOwgrs4vXTpiA"/>
+        <type xmi:id="_6tCmST2-EeOwgrs4vXTpiA" name="Observer">
+          <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6omLED2-EeOwgrs4vXTpiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_6tHesD2-EeOwgrs4vXTpiA" comments="_6tGQkD2-EeOwgrs4vXTpiA" targetConnectionVisual="_6tGQkT2-EeOwgrs4vXTpiA" name="Observer" associationsIn="_6tB_ID2-EeOwgrs4vXTpiA" subclassedBy="_6tGQkj2-EeOwgrs4vXTpiA">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6omLED2-EeOwgrs4vXTpiA"/>
+    <visualProperties xmi:id="_6tHesT2-EeOwgrs4vXTpiA" position="28.0,-220.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6tHesj2-EeOwgrs4vXTpiA" label="+"/>
+    <operations xmi:id="_6tHesz2-EeOwgrs4vXTpiA" name="update">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6onZMD2-EeOwgrs4vXTpiA"/>
+      <visibility xmi:id="_6tHetD2-EeOwgrs4vXTpiA" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6tJ68D2-EeOwgrs4vXTpiA" comments="_6tJT4D2-EeOwgrs4vXTpiA" targetConnectionVisual="_6tJT4T2-EeOwgrs4vXTpiA" name="ObservertestMain">
+    <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6ooAQD2-EeOwgrs4vXTpiA"/>
+    <visualProperties xmi:id="_6tJ68T2-EeOwgrs4vXTpiA" position="148.0,-87.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6tJ68j2-EeOwgrs4vXTpiA" label="+"/>
+    <operations xmi:id="_6tJ68z2-EeOwgrs4vXTpiA" name="main" staticOperation="true">
+      <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oonUD2-EeOwgrs4vXTpiA"/>
+      <visibility xmi:id="_6tJ69D2-EeOwgrs4vXTpiA" label="+"/>
+      <parameters xmi:id="_6tJ69T2-EeOwgrs4vXTpiA" name="args">
+        <modelElement href="Testing-Design-Patterns-observer-Pattern.uml#_6oonUT2-EeOwgrs4vXTpiA"/>
+        <type xmi:id="_6tJ69j2-EeOwgrs4vXTpiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
