@@ -10,7 +10,8 @@ import com.kanchan.hibernate.topics.manytomanymapping.PersonManyToMany;
 import com.kanchan.hibernate.utils.HibernateUtil;
 
 /**
- * @author kumark
+ * @author kanchan kumar
+ * 
  *
  */
 public class HibernateManyToManyMappingTestMain {
